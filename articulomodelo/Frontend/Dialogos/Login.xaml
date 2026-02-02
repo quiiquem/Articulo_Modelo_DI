@@ -1,0 +1,57 @@
+﻿<mah:MetroWindow x:Class="articulomodelo.Frontend.Dialogos.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:articulomodelo.Frontend.Dialogos"
+        xmlns:mat="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        mc:Ignorable="d"
+    ShowMaxRestoreButton="False"
+    ShowMinButton="False"
+    WindowStyle="None"
+    ResizeMode="NoResize"
+        Title="Login" Height="325" Width="350">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <!--Solamente va a tener contenido el de medio-->
+        </Grid.ColumnDefinitions>
+        <Grid Background="#ededed">
+            <Grid.RowDefinitions>
+                <!--Filas para el login-->
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+
+            </Grid.RowDefinitions>
+            <!--<Canvas que esta al inicio para que no este por delante de los textboxs ni botones, asi puede ocupar media pantalla para ese efecto-->
+            <Canvas IsHitTestVisible="False"/>
+
+
+            <TextBlock Grid.Row="0" Text="¡BIENVENIDO!" HorizontalAlignment="Center" 
+                      FontWeight="DemiBold" Margin="0,30,0,0" FontSize="25"/>
+
+
+            <!--NOMBRE DE USUARIO-->
+            <TextBlock Grid.Row="1" Text="Nombre de usuario:" FontSize="16" Margin="5,15,0,0" FontWeight="DemiBold"/>
+            <!--Nombre del usuario-->
+            <TextBox x:Name="txt_user" Grid.Row="2" Width="260" Margin="0,5" FontSize="14" Background="#FAF2FF"
+                     BorderThickness="1.6" BorderBrush="#5E86FF" mat:HintAssist.Hint="Escriba aquí..."/>
+            <!--TextBox donde lo escribe-->
+            <!--CONTRASEÑA-->
+            <TextBlock Grid.Row="3" FontSize="16" Text="Contraseña:" Margin="5,10" FontWeight="DemiBold"/>
+            <!--Texto Contraseña-->
+            <!--No podemos aplicar binding a un password, no tiene dependencias-->
+            <PasswordBox x:Name="txt_password" Grid.Row="4" BorderBrush="#5E86FF" Width="260" BorderThickness="1.6" Background="#FAF2FF"
+                         FontSize="14" mat:HintAssist.Hint="Escriba su contraseña..." Margin="0,0,0,15"/>
+            <!--PasswordBox donde escribe la contraseña-->
+            <!--INICIAR SESIÓN-->
+            <Button Grid.Row="5" Width="190" Margin="0,5" Content="INICIAR SESIÓN" Height="30" Background="Blue"
+                    Foreground="White" x:Name="btn_login" Click="btn_login_Click" IsDefault="True"
+                mat:ButtonAssist.CornerRadius="12"/>
+        </Grid>
+    </Grid>
+    </mah:MetroWindow>

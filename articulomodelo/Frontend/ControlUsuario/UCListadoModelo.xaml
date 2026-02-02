@@ -1,0 +1,68 @@
+﻿<UserControl x:Class="articulomodelo.Frontend.ControlUsuario.UCListadoModelo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:articulomodelo.Frontend.ControlUsuario"
+         xmlns:mat="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        mc:Ignorable="d"
+        x:Name="usuario_listaAM"
+        Loaded="usuario_listaAM_loaded"
+        d:DesignHeight="450" d:DesignWidth="800">
+    <DockPanel>
+        <Grid DockPanel.Dock="Top">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Border BorderThickness="2" BorderBrush="Black" Width="550" Height="80" Margin="0,10" Background="CornflowerBlue" Grid.Row="0">
+                <TextBlock Text="Lista Modelo Articulo" FontSize="30"  TextAlignment="Center" Margin="0,20" 
+        Width="550" FontWeight="DemiBold" Foreground="White" Height="80"/>
+            </Border>
+            <Border Background="White" Grid.Row="1">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                    <TextBlock Text="FILTRAR POR TIPO DE ARTICULO:" FontWeight="Bold" Margin="30,0,0,0"/>
+                    <ComboBox ItemsSource="{Binding listaTiposArticulos}" 
+                  DisplayMemberPath="Nombre"
+                  SelectedItem="{Binding tipoNavigationSelecionado}" 
+                  Width="170" 
+                  Margin="10,0,0,0"
+                  mah:TextBoxHelper.Watermark="Selecciona un tipo"/>
+                    <Button Background="BlueViolet" FontSize="15" Foreground="White" Width="100" Content="FILTRAR" FontWeight="Bold" Margin="30,0,0,0"
+          Click="Filtrar_Click"/>
+                    <Button Background="Blue" FontSize="12" Foreground="White" Width="100" FontWeight="Bold" Margin="20,0,0,0" Click="Limpiar_Click">
+                        <TextBlock TextWrapping="Wrap">LIMPIAR FILTROS</TextBlock>
+                    </Button>
+                </StackPanel>
+            </Border>
+        </Grid>
+        
+        <!--Listas-->
+        <Grid>
+            <DataGrid ItemsSource="{Binding listaModelo_CollectionView}" AutoGenerateColumns="False"
+              CanUserAddRows="False" ColumnWidth="*" Background="AntiqueWhite" IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="NOMBRE" Binding="{Binding Nombre}"/>
+                    <DataGridTemplateColumn Header="MARCA - MODELO" IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding Marca}" FontWeight="Bold"/>
+                                    <TextBlock Text=" - " />
+                                    <TextBlock Text="{Binding Modelo}"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTextColumn Header="CANTIDAD DE ARTÍCULOS"
+                    Binding="{Binding Articulos.Count}"/>
+                    <DataGridTextColumn Header="TIPO DE MODELO"
+                    Binding="{Binding TipoNavigation.Nombre}"/>
+                    <DataGridTextColumn Header="DESCRIPCIÓN"
+                    Binding="{Binding Descripcion}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </DockPanel>
+</UserControl>

@@ -1,0 +1,167 @@
+﻿<mah:MetroWindow x:Class="articulomodelo.Frontend.Dialogos.DialogoModeloArticulo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:articulomodelo.Frontend.Dialogos"
+        mc:Ignorable="d"
+              xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+      xmlns:mat="http://materialdesigninxaml.net/winfx/xaml/themes"
+              x:Name="diagModeloArticulo"
+      Loaded="diagModeloArticulo_Loaded"
+        Title="DialogoModeloArticulo" Height="460" Width="640">
+    <Grid>
+        <Grid Margin="10">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+<!--Titulo-->
+                <TextBlock Grid.Row="0" Grid.ColumnSpan="2" TextAlignment="Center" Text="INSERTAR MODELO ARTICULO" Grid.Column="0" FontWeight="DemiBold"
+                         Height="100"  FontSize="30" Width="600" Background="CornflowerBlue" Foreground="White"/>
+
+                <!--NOMBRE-->
+                <TextBlock Foreground="Black" Text="Nombre (*)" Grid.Row="1" FontSize="15" FontWeight="Bold"
+                           Margin="20,10"/>
+                <TextBox x:Name="txtNombre" Text="{Binding modeloArticulo.Nombre,ValidatesOnDataErrors=True,
+                    NotifyOnValidationError=True, UpdateSourceTrigger=PropertyChanged}"
+            FontWeight="Bold"
+            Grid.Row="2"
+            Grid.Column="0"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Width="200"
+            Height="40"
+            Margin="10"
+            Background="#FFFFEE"
+                     BorderBrush="Black"
+ BorderThickness="2"/>
+
+                <!--TIPO-->
+                <TextBlock Foreground="Black" Text="Tipo (*)" Grid.Row="3"  FontSize="15" FontWeight="Bold"
+                           Margin="20,0"/>
+
+                <ComboBox
+            mat:HintAssist.Hint="Tipo*"
+            FontWeight="Bold"
+            Grid.Row="3"
+            Grid.Column="0"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Width="200"
+            Height="40"
+            Margin="10,30"
+            BorderBrush="Black"
+            x:Name="cmbTipoArticulo"
+            ItemsSource="{Binding listaTiposArticulos}"
+            SelectedItem="{Binding modeloArticulo.TipoNavigation,ValidatesOnDataErrors=True,
+            NotifyOnValidationError=True}"
+            DisplayMemberPath="Nombre"
+                    />
+              
+                <!--DESCRIPCION-->
+                <TextBlock Foreground="Black" Text="Descripción" Grid.Row="4" HorizontalAlignment="Center" FontSize="15" FontWeight="Bold"
+                  Margin="20,0"/>
+                <TextBox
+            x:Name="txtDescripcion"
+            Text="{Binding modeloArticulo.Descripcion}"
+            mat:HintAssist.Hint="Descripcion*"
+            FontWeight="Bold"
+            Grid.Row="4"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Width="200"
+            Height="40"
+            Margin="10"
+            Background="#FFFFEE"
+                     BorderBrush="Black"
+ BorderThickness="2"/>
+
+                <!--MARCA-->
+                <TextBlock Foreground="Black" Text="Marca (*)" Grid.Row="1" Grid.Column="1" FontSize="15" FontWeight="Bold"
+            Margin="20,10"/>
+                <TextBox
+            x:Name="txtMarca"
+            Text="{Binding modeloArticulo.Marca,ValidatesOnDataErrors=True,
+                    NotifyOnValidationError=True, UpdateSourceTrigger=PropertyChanged}"
+            FontWeight="Bold"
+            Grid.Row="2"
+            Grid.Column="1"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Width="200"
+            Height="40"
+            Margin="10"
+            Background="#FFFFEE"
+                     BorderBrush="Black"
+ BorderThickness="2"/>
+
+                <!--MODELO-->
+                <TextBlock Foreground="Black" Text="Modelo" Grid.Row="3" Grid.Column="1" FontSize="15" FontWeight="Bold"
+       Margin="20,0"/>
+                <TextBox
+            x:Name="txtModelo"
+                Text="{Binding modeloArticulo.Modelo, NotifyOnValidationError=True, UpdateSourceTrigger=PropertyChanged}"
+            mat:HintAssist.Hint="Modelo*"
+            FontWeight="Bold"
+            Grid.Row="3"
+            Grid.Column="1"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Width="200"
+            Height="40"
+            Margin="10"
+            Background="#FFFFEE"
+                    BorderBrush="Black"
+                    BorderThickness="2"
+            />
+
+                <!-- BOTON AÑADIR-->
+                <Button
+            Grid.Row="5"
+            Grid.Column="1"
+            Content="Añadir"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Background="Blue"
+            Foreground="White"
+           FontSize="30"
+        FontWeight="Bold"
+            Width="200"
+            Height="40"
+            Margin="10"
+            x:Name="btnAnyadirModeloArticulo"
+            Click="btnAnyadirModeloArticulo_Click"/>
+
+                <!--BOTON CANCELAR-->
+                <Button
+            Grid.Row="5"
+            Grid.Column="0"
+            Content="Cancelar"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Background="Red"
+         Foreground="White"
+        FontSize="30"
+        FontWeight="Bold"
+            Width="200"
+            Height="40"
+            Margin="10"
+            x:Name="btnCancelarModeloArticulo"
+            Click="btnCancelarModeloArticulo_Click"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</mah:MetroWindow>

@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Backend",
+    "\\Backend\\Modelo",
+    "\\Backend\\Repositorios",
+    "\\bin",
+    "\\Frontend",
+    "\\Frontend\\Cosas_Scrapped",
+    "\\Helpers",
+    "\\MVVM"
+  ],
+  "SelectedNode": "\\Frontend\\Cosas_Scrapped\\Editar_Articulo.xaml",
+  "PreviewInSolutionExplorer": false
+}

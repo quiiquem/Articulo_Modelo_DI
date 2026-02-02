@@ -1,0 +1,151 @@
+﻿<mah:MetroWindow x:Class="articulomodelo.MainWindow"
+                 xmlns:local="clr-namespace:articulomodelo"
+                 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                 xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+                 xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+                 xmlns:materialDesignIcons="http://materialdesigninxaml.net/winfx/xaml/shared"
+                 Title="Tienda modelo articulo"
+                 WindowStyle="None"
+                 Height="450" Width="800">
+    <Grid>
+        <!--Definiciones de columnas-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2.5*"/>
+            <ColumnDefinition Width="2.5*"/>
+            <ColumnDefinition Width="2.5*"/>
+            <ColumnDefinition Width="2.5*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--Para que la fila entera tenga ese color negro-->
+        <Border Grid.Row="0" Background="#252525" Grid.ColumnSpan="4"/>
+
+        <!--<Menu principal-->
+        <Menu x:Name="Menu_Principal"  HorizontalAlignment="Left" Height="Auto"
+              VerticalAlignment="Top" Width="Auto" IsMainMenu="True" 
+              Background="#252525" Foreground="White" Grid.Row="0" Grid.ColumnSpan="3">
+
+            <Menu.Resources>
+                <Style TargetType="MenuItem">
+                    <Setter Property="Background" Value="#252525"/>
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="Padding" Value="10"/>
+
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#5af255"/>
+                            <Setter Property="Foreground" Value="Black"/>
+                        </Trigger>
+
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter Property="Foreground" Value="Black"/>
+                        </Trigger>
+
+                    </Style.Triggers>
+                </Style>
+            </Menu.Resources>
+
+            <MenuItem Header="Articulos">
+                <MenuItem Header="Añadir Modelo Articulo" Click="Crear_Click">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Add"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Añadir Articulo" Click="Crear_Articulo">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="AddBox"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Añadir Usuario" Click="Crear_Usuario">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="UserAdd"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Localizar Producto">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Location"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+
+            <!--Datagrids (listas de datos) -->
+            <MenuItem Header="DataGrids">
+                <MenuItem.Icon>
+                    <materialDesign:PackIcon Kind="ViewList"/>
+                </MenuItem.Icon>
+
+                <!--Lista de Usuarios-->
+                <MenuItem Header="Listado Usuarios" Click="UsuarioControl_Usuario">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="AccountGroup"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+
+                <!--Lista de artículos-->
+                <MenuItem Header="Listado Artículos" Click="UsuarioControl_Articulo">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Package"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+
+                <!--Lista de modelo articulo-->
+                <MenuItem Header="Listado Modelo Artículo" Click="UsuarioControl_ModeloArticulo">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="PackageVariant"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+
+            <!--Soporte (por ahora creo q esta bien así)-->
+            <MenuItem Header="3ra opcion q no hace nada">
+                <!--Soporte a Cliente-->
+                <MenuItem Header="Soporte al cliente">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Support"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+
+            <!--Inventario-->
+            <MenuItem Header="4ta opcion que no hace nada">
+                <MenuItem Header="Listado de espacios">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Box"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Chequear Inventario">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Box"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Inventario Nuevo">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Box"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+
+            <!--Información-->
+            <MenuItem Header="5ta opcion">
+                <MenuItem Header="Informes">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Box"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Gráficos">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Box"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <Grid x:Name="Ventana_Principal" Grid.Row="1" Grid.ColumnSpan="4">
+           
+        </Grid>
+    </Grid>
+</mah:MetroWindow>

@@ -1,0 +1,231 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\enriq\\Documents\\articulomodelo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\mvvm\\vmarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\mvvm\\vmarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\mvvm\\vmmodeloarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\mvvm\\vmmodeloarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\mvvm\\vmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\mvvm\\vmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\frontend\\controlusuario\\ucarticulos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\controlusuario\\ucarticulos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\frontend\\controlusuario\\ucarticulos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\controlusuario\\ucarticulos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\backend\\modelo\\modeloarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\backend\\modelo\\modeloarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\frontend\\controlusuario\\uclistadomodelo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\controlusuario\\uclistadomodelo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\backend\\modelo\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\backend\\modelo\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\frontend\\dialogos\\dialogoarticulo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\dialogos\\dialogoarticulo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\frontend\\controlusuario\\ucusuarios.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\controlusuario\\ucusuarios.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 54,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VMUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMUsuario.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\MVVM\\VMUsuario.cs",
+              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMUsuario.cs",
+              "RelativeToolTip": "articulomodelo\\MVVM\\VMUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T19:09:03.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Modeloarticulo.cs",
+              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Backend\\Modelo\\Modeloarticulo.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\Backend\\Modelo\\Modeloarticulo.cs",
+              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Backend\\Modelo\\Modeloarticulo.cs",
+              "RelativeToolTip": "articulomodelo\\Backend\\Modelo\\Modeloarticulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T18:32:31.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UCListadoModelo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCListadoModelo.xaml.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\Frontend\\ControlUsuario\\UCListadoModelo.xaml.cs",
+              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCListadoModelo.xaml.cs",
+              "RelativeToolTip": "articulomodelo\\Frontend\\ControlUsuario\\UCListadoModelo.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T18:15:45.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DialogoArticulo.xaml",
+              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\Dialogos\\DialogoArticulo.xaml",
+              "RelativeDocumentMoniker": "articulomodelo\\Frontend\\Dialogos\\DialogoArticulo.xaml",
+              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\Dialogos\\DialogoArticulo.xaml",
+              "RelativeToolTip": "articulomodelo\\Frontend\\Dialogos\\DialogoArticulo.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-02T18:15:08.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Backend\\Modelo\\Articulo.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\Backend\\Modelo\\Articulo.cs",
+              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Backend\\Modelo\\Articulo.cs",
+              "RelativeToolTip": "articulomodelo\\Backend\\Modelo\\Articulo.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAqwGsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T18:10:54.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VMModeloArticulo.cs",
+              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMModeloArticulo.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\MVVM\\VMModeloArticulo.cs",
+              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMModeloArticulo.cs",
+              "RelativeToolTip": "articulomodelo\\MVVM\\VMModeloArticulo.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAkwEcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T17:54:58.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VMArticulo.cs",
+              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMArticulo.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\MVVM\\VMArticulo.cs",
+              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMArticulo.cs",
+              "RelativeToolTip": "articulomodelo\\MVVM\\VMArticulo.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAA7wIIAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T17:54:59.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UCArticulos.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml.cs",
+              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml.cs",
+              "RelativeToolTip": "articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T17:54:43.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UCArticulos.xaml",
+              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml",
+              "RelativeDocumentMoniker": "articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml",
+              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml",
+              "RelativeToolTip": "articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-02T17:54:32.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UCUsuarios.xaml",
+              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCUsuarios.xaml",
+              "RelativeDocumentMoniker": "articulomodelo\\Frontend\\ControlUsuario\\UCUsuarios.xaml",
+              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCUsuarios.xaml",
+              "RelativeToolTip": "articulomodelo\\Frontend\\ControlUsuario\\UCUsuarios.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-02T17:54:29.749Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
