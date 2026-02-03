@@ -273,9 +273,12 @@ namespace articulomodelo.MVVM
                 espacioSeleccionado == null || 
                 (m.tipoEspacioSeleccionado != null && m.tipoEspacioSeleccionado.Equals(espacioSeleccionado))
             );
-           
-           _criterioFechaAlta = new Predicate<Articulo>(m => m.Fechaalta != null && (FechaAltaDesde == null || m.Fechaalta >= FechaAltaDesde)
-           && (FechaAltaHasta == null || m.Fechaalta <= FechaAltaHasta));
+
+            _criterioFechaAlta = new Predicate<Articulo>(m =>
+     (FechaAltaDesde == null && FechaAltaHasta == null) ||  (m.Fechaalta != null &&  
+     (FechaAltaDesde == null || m.Fechaalta >= FechaAltaDesde) &&
+      (FechaAltaHasta == null || m.Fechaalta <= FechaAltaHasta))
+ );
         }
 
 

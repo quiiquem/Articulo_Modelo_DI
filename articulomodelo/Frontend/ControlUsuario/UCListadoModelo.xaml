@@ -21,14 +21,17 @@
         Width="550" FontWeight="DemiBold" Foreground="White" Height="80"/>
             </Border>
             <Border Background="White" Grid.Row="1">
-                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                    <TextBlock Text="FILTRAR POR TIPO DE ARTICULO:" FontWeight="Bold" Margin="30,0,0,0"/>
+                <!--STACKPANEL FILTROS-->
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="10">
+                    <!--FILTRO TIPO ARTICULO-->
+                    <TextBlock Text="FILTRAR POR TIPO DE ARTICULO:" FontWeight="Bold" Margin="30,0,0,0" VerticalAlignment="Center"/>
                     <ComboBox ItemsSource="{Binding listaTiposArticulos}" 
                   DisplayMemberPath="Nombre"
                   SelectedItem="{Binding tipoNavigationSelecionado}" 
                   Width="170" 
                   Margin="10,0,0,0"
                   mah:TextBoxHelper.Watermark="Selecciona un tipo"/>
+                    <!--BOTONES-->
                     <Button Background="BlueViolet" FontSize="15" Foreground="White" Width="100" Content="FILTRAR" FontWeight="Bold" Margin="30,0,0,0"
           Click="Filtrar_Click"/>
                     <Button Background="Blue" FontSize="12" Foreground="White" Width="100" FontWeight="Bold" Margin="20,0,0,0" Click="Limpiar_Click">

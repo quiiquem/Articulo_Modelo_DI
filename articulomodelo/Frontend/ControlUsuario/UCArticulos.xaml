@@ -43,14 +43,19 @@
             </Border>
             <Border Background="White" Grid.Row="2">
                 <StackPanel Orientation="Horizontal" Margin="10" VerticalAlignment="Center">
+                    
+                    <!--FILTRO NUMESRIE-->
                     <TextBlock Text="Nº Serie" FontSize="15" FontWeight="Bold"/>
-                    <TextBox Text="{Binding NumSerieFiltro, UpdateSourceTrigger=PropertyChanged}" Width="150"
+                    <TextBox Text="{Binding NumSerieFiltro}" Width="150"
                              Margin="10,0,0,0" />
-
+                    
+                    <!--FILTRO COMBOBOX-->
                     <TextBlock Text="Espacio" FontSize="15" FontWeight="Bold" Margin="80,0,0,0"/>
                     <ComboBox ItemsSource="{Binding listaEspacios}"
                     SelectedItem="{Binding espacioSeleccionado}"  DisplayMemberPath="Nombre"
                        mah:TextBoxHelper.Watermark="Selecciona un espacio" Width="150" Margin="20,0,0,0"/>
+                    
+                    <!--SLIDER-->
                 </StackPanel>
             </Border>
         </Grid>

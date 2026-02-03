@@ -29,9 +29,9 @@ namespace articulomodelo.Frontend.ControlUsuario
 
         private async void usuario_listaArticulos_Loaded(object sender, RoutedEventArgs e)
         {
+            DataContext = _vmArticulo;
             await _vmArticulo.InicializarArticulos();
             await _vmArticulo.InicializarEspacios();    
-            DataContext = _vmArticulo;
         }
 
         private void Filtrar_Click(object sender, RoutedEventArgs e)
