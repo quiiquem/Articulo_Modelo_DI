@@ -11,15 +11,6 @@
     <Compile Update="Frontend\ControlUsuario\UCListadoModelo.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Frontend\Cosas_Scrapped\Crear_Articulo.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Frontend\Cosas_Scrapped\Editar_Articulo.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Frontend\Cosas_Scrapped\Eliminar_Articulo.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="Frontend\Dialogos\DialogoArticulo.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

@@ -1,4 +1,5 @@
-﻿using articulomodelo.Frontend.Mensajes;
+﻿using articulomodelo.Backend.Modelo;
+using articulomodelo.Frontend.Mensajes;
 using articulomodelo.MVVM;
 using articulomodelo.MVVM.Implementacion;
 using MahApps.Metro.Controls;
@@ -23,23 +24,22 @@ namespace articulomodelo.Frontend.Dialogos
     /// </summary>
     public partial class DialogoModeloArticulo : MetroWindow
     {
-        private readonly VMModeloArticulo _mvArticulo; //declarar MVArticulo
+        private readonly VMModeloArticulo _vmModeloArticulo; //declarar MVArticulo
             public DialogoModeloArticulo(VMModeloArticulo mvArticulo)
             {
                 InitializeComponent();
-                _mvArticulo = mvArticulo;
+            _vmModeloArticulo = mvArticulo;
           
         }
 
-        private async void diagModeloArticulo_Loaded(object sender, RoutedEventArgs e)
+        public async Task Initialized(Modeloarticulo modeloarticulo)
         {
-            await _mvArticulo.InicializaTipoArticulo();
-            this.AddHandler(Validation.ErrorEvent, new RoutedEventHandler(_mvArticulo.OnErrorEvent));
-            //Enlaza la parte visual con VM , usando el DataContext para que este conectada a la BD
-            DataContext = _mvArticulo;
+                await _vmModeloArticulo.Inicializa();
+                _vmModeloArticulo.modeloArticulo = modeloarticulo;
+            this.AddHandler(Validation.ErrorEvent, new RoutedEventHandler(_vmModeloArticulo.OnErrorEvent));
+            DataContext = _vmModeloArticulo;
         }
 
-     
 
         //BOTONES por activar
 
@@ -47,14 +47,14 @@ namespace articulomodelo.Frontend.Dialogos
         private async void btnAnyadirModeloArticulo_Click(object sender, RoutedEventArgs e) // Guardar Modelo Artículo con metodo async
         {
          
-           if (_mvArticulo.HasErrors) //Si no hay errores de validación
+           if (_vmModeloArticulo.HasErrors) //Si no hay errores de validación
             {
                 try
                 {
                     btnAnyadirModeloArticulo.IsEnabled = true; //Reactivar boton guardar
 
                     //Decirle al MVArticulo que guarde el modelo de artículo (usando el codigo que tiene VMArticulo)
-                    bool guardado = await _mvArticulo.GuardarModeloArticuloAsync(); //Guardar MA en la BD
+                    bool guardado = await _vmModeloArticulo.GuardarModeloArticuloAsync(); //Guardar MA en la BD
                     if (guardado)
                     {
                         MensajeInformacion.Mostrar("Modelo de artículo guardado correctamente",
@@ -72,12 +72,10 @@ namespace articulomodelo.Frontend.Dialogos
             }
         }
 
-            
-                private void btnCancelarModeloArticulo_Click(object sender, RoutedEventArgs e)
-                {
-                    DialogResult = false;
-                this.Close();
-                }
-
+        private void btnCancelarModeloArticulo_Click(object sender, RoutedEventArgs e)
+        {
+            DialogResult = false;
+            this.Close();
+        }
     }
 }

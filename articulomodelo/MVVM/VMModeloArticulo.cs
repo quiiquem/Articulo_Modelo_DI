@@ -123,29 +123,76 @@ namespace articulomodelo.MVVM
                 }
         }
 
-        public async Task<bool> GuardarModeloArticuloAsync()
+        //Inicializar objeto modelo articulo para editar
+        public async Task Inicializa()
+        {
+            try
             {
-                bool correcto = true;
-                try
-                {
-                    if (modeloArticulo.Idmodeloarticulo == 0)
-                    {
-                        // Nuevo modelo de artículo
-                        await _modeloArticuloRepository.AddAsync(modeloArticulo);
-                    }
-                    else
-                    {
-                        // Actualizar modelo de artículo existente
-                        await _modeloArticuloRepository.UpdateAsync(modeloArticulo);
-                    }
-                }
-                catch (Exception ex)
-                {
-                    // Capturamos la excepción y la registramos en el log
-                    correcto = false;
-                }
-                return correcto;
+                // Cargar tipos de artículos
+                _listaTipoArticulos = await GetAllAsync<Tipoarticulo>(_tipoArticuloRepository);
+                OnPropertyChanged(nameof(listaTiposArticulos));
+
+                // Cargar modelos de artículos
+                _listaModelosArticulos = await GetAllAsync<Modeloarticulo>(_modeloArticuloRepository);
+                listaModelo_CollectionView = new ListCollectionView(_listaModelosArticulos);
+                OnPropertyChanged(nameof(listaModelo_CollectionView));
+                OnPropertyChanged(nameof(listaModelos));
             }
+            catch (Exception ex)
+            {
+                MensajeError.Mostrar("GESTIÓN MODELO ARTICULO",
+                    "Error al cargar los datos\nNo puedo conectar con la base de datos", 0);
+            }
+        }
+
+        public async Task<bool> GuardarModeloArticuloAsync()
+        {
+            bool correcto;
+
+            if (modeloArticulo.Idmodeloarticulo == 0)
+            {
+                // Nuevo modelo de artículo
+                correcto = await AddAsync(_modeloArticuloRepository, modeloArticulo);
+            }
+            else
+            {
+                // Actualizar modelo de artículo existente
+                correcto = await UpdateAsync(_modeloArticuloRepository, modeloArticulo);
+            }
+
+            if (correcto)
+            {
+                // Recargar la lista completa desde BD
+                await InicializarModelosArticulos();
+
+                // Refrescar la CollectionView
+                listaModelo_CollectionView?.Refresh();
+            }
+            else
+            {
+                MensajeError.Mostrar("GUARDAR MODELO",
+                    "Error al guardar el modelo de artículo", 0);
+            }
+
+            return correcto;
+        }
+
+
+
+        //Eliminar modelo articulo de la BD
+
+        public async Task<bool> EliminarModeloArticuloAsync(int id)
+        {
+            bool correcto = await DeleteAsync(_modeloArticuloRepository, id);
+
+            if (!correcto)
+            {
+                MensajeError.Mostrar("ELIMINAR MODELO",
+                    "Error al eliminar el modelo de artículo", 0);
+            }
+
+            return correcto;
+        }
 
         #region Metodos privados de filtrado
         // InicializaCriterios

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\App.xaml
-14-187802827
+11-790594262
 
-57-1425241534
+541738082434
 233-236694951
-Frontend\ControlUsuario\UCArticulos.xaml;Frontend\ControlUsuario\UCListadoModelo.xaml;Frontend\ControlUsuario\UCUsuarios.xaml;Frontend\Cosas_Scrapped\Crear_Articulo.xaml;Frontend\Cosas_Scrapped\Editar_Articulo.xaml;Frontend\Cosas_Scrapped\Eliminar_Articulo.xaml;Frontend\Dialogos\DialogoArticulo.xaml;Frontend\Dialogos\DialogoModeloArticulo.xaml;Frontend\Dialogos\DialogoUsuarioNuevo.xaml;Frontend\Dialogos\Login.xaml;Frontend\Mensajes\MensajeDialogo.xaml;Frontend\Mensajes\VentanaMensaje.xaml;MainWindow.xaml;ResultWindow.xaml;
+Frontend\ControlUsuario\UCArticulos.xaml;Frontend\ControlUsuario\UCListadoModelo.xaml;Frontend\ControlUsuario\UCUsuarios.xaml;Frontend\Dialogos\DialogoArticulo.xaml;Frontend\Dialogos\DialogoModeloArticulo.xaml;Frontend\Dialogos\DialogoUsuarioNuevo.xaml;Frontend\Dialogos\Login.xaml;Frontend\Mensajes\MensajeDialogo.xaml;Frontend\Mensajes\VentanaMensaje.xaml;MainWindow.xaml;ResultWindow.xaml;
 
 False
 

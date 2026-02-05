@@ -1062,9 +1062,6 @@ C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8
 C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8.0-windows\Frontend\ControlUsuario\UCArticulos.g.cs
 C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8.0-windows\Frontend\ControlUsuario\UCListadoModelo.g.cs
 C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8.0-windows\Frontend\ControlUsuario\UCUsuarios.g.cs
-C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8.0-windows\Frontend\Cosas_Scrapped\Crear_Articulo.g.cs
-C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8.0-windows\Frontend\Cosas_Scrapped\Editar_Articulo.g.cs
-C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8.0-windows\Frontend\Cosas_Scrapped\Eliminar_Articulo.g.cs
 C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8.0-windows\Frontend\Dialogos\DialogoArticulo.g.cs
 C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8.0-windows\Frontend\Dialogos\DialogoModeloArticulo.g.cs
 C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8.0-windows\Frontend\Dialogos\DialogoUsuarioNuevo.g.cs
@@ -1081,9 +1078,6 @@ C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8
 C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8.0-windows\Frontend\ControlUsuario\UCArticulos.baml
 C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8.0-windows\Frontend\ControlUsuario\UCListadoModelo.baml
 C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8.0-windows\Frontend\ControlUsuario\UCUsuarios.baml
-C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8.0-windows\Frontend\Cosas_Scrapped\Crear_Articulo.baml
-C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8.0-windows\Frontend\Cosas_Scrapped\Editar_Articulo.baml
-C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8.0-windows\Frontend\Cosas_Scrapped\Eliminar_Articulo.baml
 C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8.0-windows\Frontend\Dialogos\DialogoArticulo.baml
 C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8.0-windows\Frontend\Dialogos\DialogoModeloArticulo.baml
 C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8.0-windows\Frontend\Dialogos\DialogoUsuarioNuevo.baml
