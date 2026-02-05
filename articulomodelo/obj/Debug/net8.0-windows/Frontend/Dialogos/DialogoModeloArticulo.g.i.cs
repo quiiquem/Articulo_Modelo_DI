@@ -132,7 +132,7 @@ namespace articulomodelo.Frontend.Dialogos {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/articulomodelo;V1.0.0.0;component/frontend/dialogos/dialogomodeloarticulo.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/articulomodelo;component/frontend/dialogos/dialogomodeloarticulo.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Frontend\Dialogos\DialogoModeloArticulo.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

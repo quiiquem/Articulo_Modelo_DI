@@ -54,11 +54,11 @@ namespace articulomodelo
 
         //Botones que abren dialogos (Crear MA, Articulo y Usuario)
         //Crear Modelo Articulo
-        private void Crear_Click(object sender, RoutedEventArgs e) //Ventana Dialogo Crear Articulo
+        private async void Crear_Click(object sender, RoutedEventArgs e) //Ventana Dialogo Crear Articulo
         {
 
-            //Generar una nueva cada que se inicia para que VM no explote
-            var dialogo = new DialogoModeloArticulo(_mvModeloArticulo); 
+            var dialogo = new DialogoModeloArticulo(_mvModeloArticulo); // ✅ Mismo ViewModel
+            await dialogo.InicializaNuevo();
             dialogo.ShowDialog();
         }
 

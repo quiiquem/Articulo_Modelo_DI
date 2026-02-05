@@ -1,74 +1,73 @@
 ﻿using articulomodelo.Backend.Modelo;
 using articulomodelo.Frontend.Mensajes;
 using articulomodelo.MVVM;
-using articulomodelo.MVVM.Implementacion;
 using MahApps.Metro.Controls;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace articulomodelo.Frontend.Dialogos
 {
-    /// <summary>
-    /// Interaction logic for DialogoModeloArticulo.xaml
-    /// </summary>
     public partial class DialogoModeloArticulo : MetroWindow
     {
-        private readonly VMModeloArticulo _vmModeloArticulo; //declarar MVArticulo
-            public DialogoModeloArticulo(VMModeloArticulo mvArticulo)
-            {
-                InitializeComponent();
+        private readonly VMModeloArticulo _vmModeloArticulo;
+
+        public DialogoModeloArticulo(VMModeloArticulo mvArticulo)
+        {
+            InitializeComponent();
             _vmModeloArticulo = mvArticulo;
-          
         }
 
-        public async Task Initialized(Modeloarticulo modeloarticulo)
+        public async Task InicializaNuevo()
         {
-                await _vmModeloArticulo.Inicializa();
-                _vmModeloArticulo.modeloArticulo = modeloarticulo;
+            await _vmModeloArticulo.Inicializa();
+            _vmModeloArticulo.modeloArticulo = new Modeloarticulo();
+            _vmModeloArticulo.tipoNavigationSelecionado = null;
             this.AddHandler(Validation.ErrorEvent, new RoutedEventHandler(_vmModeloArticulo.OnErrorEvent));
             DataContext = _vmModeloArticulo;
         }
 
-
-        //BOTONES por activar
-
-        //Boton de guardar modelo artículo
-        private async void btnAnyadirModeloArticulo_Click(object sender, RoutedEventArgs e) // Guardar Modelo Artículo con metodo async
+        public async Task InicializaEditar(Modeloarticulo modeloarticulo)
         {
-         
-           if (_vmModeloArticulo.HasErrors) //Si no hay errores de validación
+            await _vmModeloArticulo.Inicializa();
+            _vmModeloArticulo.modeloArticulo = modeloarticulo;
+
+            // Seleccionar el tipo en el ComboBox
+            if (modeloarticulo?.TipoNavigation != null)
+            {
+                _vmModeloArticulo.tipoNavigationSelecionado = _vmModeloArticulo.listaTiposArticulos?
+                    .FirstOrDefault(t => t.Idtipoarticulo == modeloarticulo.TipoNavigation.Idtipoarticulo);
+            }
+
+            this.AddHandler(Validation.ErrorEvent, new RoutedEventHandler(_vmModeloArticulo.OnErrorEvent));
+            DataContext = _vmModeloArticulo;
+        }
+
+        private async void btnAnyadirModeloArticulo_Click(object sender, RoutedEventArgs e)
+        {
+            if (_vmModeloArticulo.HasErrors)
             {
                 try
                 {
-                    btnAnyadirModeloArticulo.IsEnabled = true; //Reactivar boton guardar
+                    btnAnyadirModeloArticulo.IsEnabled = true;
+                    bool guardado = await _vmModeloArticulo.GuardarModeloArticuloAsync();
 
-                    //Decirle al MVArticulo que guarde el modelo de artículo (usando el codigo que tiene VMArticulo)
-                    bool guardado = await _vmModeloArticulo.GuardarModeloArticuloAsync(); //Guardar MA en la BD
                     if (guardado)
                     {
-                        MensajeInformacion.Mostrar("Modelo de artículo guardado correctamente",
-                                             "Éxito");
-                        DialogResult = true; // cerrar ventana indicando éxito
+                        MensajeInformacion.Mostrar("Modelo de artículo guardado correctamente", "Éxito");
+                        DialogResult = true;
                     }
                 }
                 catch (Exception ex)
                 {
-                    MensajeAdvertencia.Mostrar("Ha habido problemas con el servidor ", "Error con el servidor");
+                    MensajeAdvertencia.Mostrar("Ha habido problemas con el servidor", "Error con el servidor");
                 }
-            } else {
+            }
+            else
+            {
                 MensajeError.Mostrar("Por favor, corrija los errores antes de guardar el modelo de artículo.", "Error de validación");
-                
             }
         }
 

@@ -43,7 +43,7 @@ namespace articulomodelo.Frontend.ControlUsuario
             if (dgModelosArticulos.SelectedItem is Modeloarticulo modeloSeleccionado)
             {
                 var dialogo = _serviceProvider.GetRequiredService<DialogoModeloArticulo>();
-                await dialogo.Initialized(modeloSeleccionado);
+                await dialogo.InicializaEditar(modeloSeleccionado);
                 dialogo.ShowDialog();
 
                 if (dialogo.DialogResult == true)
