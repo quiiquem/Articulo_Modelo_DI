@@ -791,9 +791,6 @@ C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\
 C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\ControlUsuario\UCArticulos.g.cs
 C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\ControlUsuario\UCListadoModelo.g.cs
 C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\ControlUsuario\UCUsuarios.g.cs
-C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\Cosas_Scrapped\Crear_Articulo.g.cs
-C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\Cosas_Scrapped\Editar_Articulo.g.cs
-C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\Cosas_Scrapped\Eliminar_Articulo.g.cs
 C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\Dialogos\DialogoArticulo.g.cs
 C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\Dialogos\DialogoModeloArticulo.g.cs
 C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\Dialogos\DialogoUsuarioNuevo.g.cs
@@ -926,9 +923,6 @@ C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\
 C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\ControlUsuario\UCArticulos.baml
 C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\ControlUsuario\UCListadoModelo.baml
 C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\ControlUsuario\UCUsuarios.baml
-C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\Cosas_Scrapped\Crear_Articulo.baml
-C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\Cosas_Scrapped\Editar_Articulo.baml
-C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\Cosas_Scrapped\Eliminar_Articulo.baml
 C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\Dialogos\DialogoArticulo.baml
 C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\Dialogos\DialogoModeloArticulo.baml
 C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\Dialogos\DialogoUsuarioNuevo.baml
@@ -1098,3 +1092,4 @@ C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8
 C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8.0-windows\articulomodelo.pdb
 C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8.0-windows\articulomodelo.genruntimeconfig.cache
 C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8.0-windows\ref\articulomodelo.dll
+C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\articulomodelo.sourcelink.json

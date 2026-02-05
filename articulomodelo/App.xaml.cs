@@ -99,7 +99,7 @@ namespace articulomodelo
 
             // Registrar ViewModels
             services.AddTransient<MVArticulo>();
-            services.AddSingleton<VMModeloArticulo>();
+            services.AddTransient<VMModeloArticulo>();
             services.AddTransient<VMUsuario>();
 
             // Registrar dialogos

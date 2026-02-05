@@ -20,27 +20,11 @@ namespace articulomodelo.Frontend.Dialogos
             _vmModeloArticulo = mvArticulo;
         }
 
-        public async Task InicializaNuevo()
-        {
-            await _vmModeloArticulo.Inicializa();
-            _vmModeloArticulo.modeloArticulo = new Modeloarticulo();
-            _vmModeloArticulo.tipoNavigationSelecionado = null;
-            this.AddHandler(Validation.ErrorEvent, new RoutedEventHandler(_vmModeloArticulo.OnErrorEvent));
-            DataContext = _vmModeloArticulo;
-        }
-
-        public async Task InicializaEditar(Modeloarticulo modeloarticulo)
+        public async Task Inicializa(Modeloarticulo modeloarticulo)
         {
             await _vmModeloArticulo.Inicializa();
             _vmModeloArticulo.modeloArticulo = modeloarticulo;
-
-            // Seleccionar el tipo en el ComboBox
-            if (modeloarticulo?.TipoNavigation != null)
-            {
-                _vmModeloArticulo.tipoNavigationSelecionado = _vmModeloArticulo.listaTiposArticulos?
-                    .FirstOrDefault(t => t.Idtipoarticulo == modeloarticulo.TipoNavigation.Idtipoarticulo);
-            }
-
+            this.RemoveHandler(Validation.ErrorEvent, new RoutedEventHandler(_vmModeloArticulo.OnErrorEvent)); //reiniciar los errores porque si no cada que se crea/edita un modelo visual studio decide irse 
             this.AddHandler(Validation.ErrorEvent, new RoutedEventHandler(_vmModeloArticulo.OnErrorEvent));
             DataContext = _vmModeloArticulo;
         }

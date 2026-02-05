@@ -1,4 +1,5 @@
-﻿using articulomodelo.Frontend.ControlUsuario;
+﻿using articulomodelo.Backend.Modelo;
+using articulomodelo.Frontend.ControlUsuario;
 using articulomodelo.Frontend.Dialogos;
 using articulomodelo.MVVM;
 using MahApps.Metro.Controls;
@@ -54,11 +55,10 @@ namespace articulomodelo
 
         //Botones que abren dialogos (Crear MA, Articulo y Usuario)
         //Crear Modelo Articulo
-        private async void Crear_Click(object sender, RoutedEventArgs e) //Ventana Dialogo Crear Articulo
+        private async void Crear_Click(object sender, RoutedEventArgs e)
         {
-
-            var dialogo = new DialogoModeloArticulo(_mvModeloArticulo); // ✅ Mismo ViewModel
-            await dialogo.InicializaNuevo();
+            var dialogo = new DialogoModeloArticulo(_mvModeloArticulo);
+            await dialogo.Inicializa(new Modeloarticulo()); // ✅ Nuevo modelo vacío
             dialogo.ShowDialog();
         }
 

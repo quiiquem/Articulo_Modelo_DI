@@ -7,24 +7,21 @@ using System.Windows.Controls;
 
 namespace articulomodelo.Frontend.ControlUsuario
 {
-    /// <summary>
-    /// Interaction logic for UCListadoModelo.xaml
-    /// </summary>
     public partial class UCListadoModelo : UserControl
     {
         private VMModeloArticulo _vmModeloArticulo;
-        private IServiceProvider _serviceProvider;
+        private readonly IServiceProvider _serviceProvider;
+
         public UCListadoModelo(VMModeloArticulo vmModeloArticulo, IServiceProvider serviceProvider)
         {
             InitializeComponent();
-           _vmModeloArticulo = vmModeloArticulo;
+            _vmModeloArticulo = vmModeloArticulo;
             _serviceProvider = serviceProvider;
         }
 
-        private async void usuario_listaAM_loaded(object sender, System.Windows.RoutedEventArgs e)
+        private async void usuario_listaAM_loaded(object sender, RoutedEventArgs e)
         {
-            await _vmModeloArticulo.InicializarModelosArticulos();
-            await _vmModeloArticulo.InicializaTipoArticulo();
+            await _vmModeloArticulo.Inicializa();
             DataContext = _vmModeloArticulo;
         }
 
@@ -32,7 +29,7 @@ namespace articulomodelo.Frontend.ControlUsuario
         {
             _vmModeloArticulo.Filtrar();
         }
-    
+
         private void Limpiar_Click(object sender, RoutedEventArgs e)
         {
             _vmModeloArticulo.LimpiarFiltros();
@@ -43,12 +40,12 @@ namespace articulomodelo.Frontend.ControlUsuario
             if (dgModelosArticulos.SelectedItem is Modeloarticulo modeloSeleccionado)
             {
                 var dialogo = _serviceProvider.GetRequiredService<DialogoModeloArticulo>();
-                await dialogo.InicializaEditar(modeloSeleccionado);
+                await dialogo.Inicializa(modeloSeleccionado);
                 dialogo.ShowDialog();
 
                 if (dialogo.DialogResult == true)
                 {
-                    await _vmModeloArticulo.Inicializa();
+                    _vmModeloArticulo.listaModelo_CollectionView.Refresh();
                 }
             }
         }
@@ -67,5 +64,4 @@ namespace articulomodelo.Frontend.ControlUsuario
             }
         }
     }
-    }
-
+}
