@@ -16,7 +16,6 @@ namespace articulomodelo.Backend.Servicios
         }
 
         //Guardar el articulo 
-
         public async Task<int> ObtenerMaximoId()
         {
             var maxId = await _context.Articulos

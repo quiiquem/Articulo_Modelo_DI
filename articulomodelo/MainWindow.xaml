@@ -50,7 +50,7 @@
                 </Style>
             </Menu.Resources>
 
-            <MenuItem Header="Articulos">
+            <MenuItem Header="Insertar Objetos">
                 <MenuItem Header="Añadir Modelo Articulo" Click="Crear_Click">
                     <MenuItem.Icon>
                         <materialDesign:PackIcon Kind="Add"/>
@@ -99,10 +99,31 @@
                         <materialDesign:PackIcon Kind="PackageVariant"/>
                     </MenuItem.Icon>
                 </MenuItem>
+
+                <!--Lista de Arbol admin-->
+                <MenuItem Header="Listado Administración" Click="UsuarioControl_Arbol">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Tree"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+
+                <!--Lista de Departamentos-->
+                <MenuItem Header="Listado Departamentos" Click="UsuarioControl_Departamento">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Building"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+
+                <!--Lista de Grupos-->
+                <MenuItem Header="Listado Grupos" Click="UsuarioControl_Grupos">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Building"/>
+                    </MenuItem.Icon>
+                </MenuItem>
             </MenuItem>
 
-            <!--Soporte (por ahora creo q esta bien así)-->
-            <MenuItem Header="3ra opcion q no hace nada">
+            <!--TODO: Mover las ultimas 3 listas a Árboles-->
+            <MenuItem Header="Árboles">
                 <!--Soporte a Cliente-->
                 <MenuItem Header="Soporte al cliente">
                     <MenuItem.Icon>

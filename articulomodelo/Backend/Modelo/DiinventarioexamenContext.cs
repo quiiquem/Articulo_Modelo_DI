@@ -48,7 +48,7 @@ public partial class DiinventarioexamenContext : DbContext
     {
         if (!optionsBuilder.IsConfigured)
         {
-            optionsBuilder.UseMySQL("server=127.0.0.1;port=3306;database=diinventarioexamen;user=root;password=oracle")
+            optionsBuilder.UseMySQL("server=127.0.0.1;port=3306;database=diinventarioexamen;user=root;password=mysql")
                 .EnableSensitiveDataLogging()
                 .LogTo(Console.WriteLine, LogLevel.Information);
         }

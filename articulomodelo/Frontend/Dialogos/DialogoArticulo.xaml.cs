@@ -46,12 +46,8 @@ namespace articulomodelo.Frontend.Dialogos
         private async void btnGuardar_Click(object sender, RoutedEventArgs e)
         {
             // Forzar actualización de bindings
-            cmbBox_Modelo.GetBindingExpression(ComboBox.SelectedValueProperty)?.UpdateSource();
-            Espacios_CmbBox.GetBindingExpression(ComboBox.SelectedValueProperty)?.UpdateSource();
-
-            // Log de debug
-            System.Diagnostics.Debug.WriteLine($"Modelo: {_mvArticulo.articulo.Modelo}");
-            System.Diagnostics.Debug.WriteLine($"Espacio: {_mvArticulo.articulo.Espacio}");
+         //   cmbBox_Modelo.GetBindingExpression(ComboBox.SelectedValueProperty)?.UpdateSource();
+           // Espacios_CmbBox.GetBindingExpression(ComboBox.SelectedValueProperty)?.UpdateSource();
 
             if (_mvArticulo.HasErrors) // Si NO hay errores
             {

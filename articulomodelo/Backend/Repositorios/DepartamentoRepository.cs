@@ -9,9 +9,14 @@ namespace articulomodelo.Backend.Servicios
     {
         public DepartamentoRepository(DiinventarioexamenContext context, ILogger<GenericRepository<Departamento>> logger)
              : base(context, logger)
-        {
+        { 
         }
 
-
+        public async Task<List<Departamento>> GetAllConUsuariosAsync()
+        {
+            return await _dbSet
+                .Include(d => d.Usuarios)
+                .ToListAsync();
+        }
     }
 }

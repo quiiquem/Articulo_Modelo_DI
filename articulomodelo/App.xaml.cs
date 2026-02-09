@@ -101,6 +101,9 @@ namespace articulomodelo
             services.AddTransient<MVArticulo>();
             services.AddTransient<VMModeloArticulo>();
             services.AddTransient<VMUsuario>();
+            services.AddTransient<VMEspacio>();
+            services.AddTransient<VMDepartamento>();
+            services.AddTransient<VMGrupo>();
 
             // Registrar dialogos
             services.AddTransient<Login>();
@@ -112,6 +115,9 @@ namespace articulomodelo
             services.AddTransient<UCListadoModelo>();
             services.AddTransient<UCUsuarios>();
             services.AddTransient<UCArticulos>();
+            services.AddTransient<UCAdministracionEspacios>();
+            services.AddTransient<UCDepartamentos>();
+            services.AddTransient<UCGrupos>();
             //Loggin
             services.AddLogging();
         }

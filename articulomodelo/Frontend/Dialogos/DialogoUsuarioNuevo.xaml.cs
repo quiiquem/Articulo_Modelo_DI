@@ -43,17 +43,6 @@ namespace articulomodelo.Frontend.Dialogos
             }
         }
 
-        private void TestValidacion_Click(object sender, RoutedEventArgs e)
-        {
-            System.Diagnostics.Debug.WriteLine("=== TEST DE VALIDACIÓN ===");
-            System.Diagnostics.Debug.WriteLine($"Usuario.Username: '{_mvUsuario.usuario.Username ?? "NULL"}'");
-            System.Diagnostics.Debug.WriteLine($"HasErrors: {_mvUsuario.HasErrors}");
-
-            // Forzar validación manual
-            var error = _mvUsuario["usuario.Username"];
-            System.Diagnostics.Debug.WriteLine($"Error manual: {error ?? "SIN ERROR"}");
-        }
-
         private async void guardar_usuario_Click(object sender, RoutedEventArgs e)
         {
             nombre_usuario.GetBindingExpression(TextBox.TextProperty)?.UpdateSource();

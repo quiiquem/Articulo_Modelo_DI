@@ -16,11 +16,15 @@ namespace articulomodelo
         private UCListadoModelo _listadoArticuloModelo;
         private UCUsuarios _listadoUsuarios;
         private UCArticulos _listadoArticulos;
+        private UCAdministracionEspacios _listadoArbol;
+        private UCDepartamentos _listadoDepartamento;
+        private UCGrupos _listadoGrupo;
 
         //Constructor MainWindow con las ventanas dialogo inyectadas (ahora si podemos pues pusimos los servicios en App.xaml.cs)
         public MainWindow(MVArticulo mvArticulo, VMModeloArticulo mvModeloArticulo,
             VMUsuario mvUsuario, UCListadoModelo listadoArticuloModelo, UCUsuarios listadoUsuarios,
-            UCArticulos listadoArticulos)
+            UCArticulos listadoArticulos, UCAdministracionEspacios listadoArbol, UCDepartamentos listadoDepartamento,
+            UCGrupos listadoGrupo)
         {
             InitializeComponent();
             _mvModeloArticulo = mvModeloArticulo;
@@ -29,6 +33,11 @@ namespace articulomodelo
             _listadoArticuloModelo = listadoArticuloModelo;
             _listadoUsuarios = listadoUsuarios;
             _listadoArticulos = listadoArticulos;
+            _listadoArbol = listadoArbol;
+            _listadoDepartamento = listadoDepartamento;
+            _listadoGrupo = listadoGrupo;
+            _listadoDepartamento = listadoDepartamento;
+            _listadoGrupo = listadoGrupo;
         }
 
         //Botones de la barra horizontal azul de arriba
@@ -58,7 +67,7 @@ namespace articulomodelo
         private async void Crear_Click(object sender, RoutedEventArgs e)
         {
             var dialogo = new DialogoModeloArticulo(_mvModeloArticulo);
-            await dialogo.Inicializa(new Modeloarticulo()); // ✅ Nuevo modelo vacío
+            await dialogo.Inicializa(new Modeloarticulo()); 
             dialogo.ShowDialog();
         }
 
@@ -100,7 +109,25 @@ namespace articulomodelo
             Ventana_Principal.Children.Add(_listadoArticulos);
         }
 
+        
 
+      private void UsuarioControl_Arbol(object sender, RoutedEventArgs e) //Ventana Control Árbol
+             {
+            Ventana_Principal.Children.Clear();
+            Ventana_Principal.Children.Add(_listadoArbol);
+        }
+
+        private void UsuarioControl_Departamento(object sender, RoutedEventArgs e) //Ventana Departamento Árbol
+        {
+            Ventana_Principal.Children.Clear();
+            Ventana_Principal.Children.Add(_listadoDepartamento);
+        }
+
+        private void UsuarioControl_Grupos(object sender, RoutedEventArgs e) //Ventana Departamento Grupo
+        {
+            Ventana_Principal.Children.Clear();
+            Ventana_Principal.Children.Add(_listadoGrupo);
+        }
 
     }
 }

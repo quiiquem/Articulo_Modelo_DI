@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="articulomodelo.Frontend.ControlUsuario.UCDepartamentos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:articulomodelo.Frontend.ControlUsuario"
+        mc:Ignorable="d"
+        xmlns:entidades="clr-namespace:articulomodelo.Backend.Modelo"
+        xmlns:mat="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Loaded="ucDepartamento_Loaded"     
+       d:DesignHeight="450" d:DesignWidth="800">
+
+    <DockPanel>
+        <Grid DockPanel.Dock="Top">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Border BorderThickness="2" BorderBrush="Black" Width="550" Height="80" Margin="0,10" Background="CornflowerBlue" Grid.Row="0">
+                <TextBlock Text="Lista Departamentos" FontSize="30"  TextAlignment="Center" Margin="0,20" 
+        Width="550" FontWeight="DemiBold" Foreground="White" Height="80"/>
+            </Border>
+        </Grid>
+        <Grid>
+            <TreeView ItemsSource="{Binding listaDepartamentos}">
+                <TreeView.Resources>
+                    <!--NIVEL 1: Poner nombre de Departamentos-->
+                    <HierarchicalDataTemplate DataType="{x:Type entidades:Departamento}"
+                                              ItemsSource="{Binding Usuarios}">
+                        <StackPanel Orientation="Horizontal">
+                            <mat:PackIcon Kind="Domain" Width="16"/>
+                            <TextBlock Text="{Binding Nombre}" Margin="10,0,0,0"/>
+                        </StackPanel>
+                    </HierarchicalDataTemplate>
+                    <!--NIVEL 2: Poner datos del Usuario (nombre e apellidos)-->
+                    <!--NIVEL 3: Poner fecha salida / devolución -->
+                </TreeView.Resources>
+            </TreeView>
+        </Grid>
+    </DockPanel>
+</UserControl>
