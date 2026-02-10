@@ -14,13 +14,13 @@ namespace articulomodelo.MVVM
     {
         private Grupo _grupo;
         private GrupoRepository _grupoRepository;
-        private List<Grupo> _listaGrupo;
+        private List<Grupo> _listaGrupos;
 
         public VMGrupo(GrupoRepository grupoRepository)
         {
             _grupoRepository = grupoRepository;
             _grupo = new Grupo();
-            _listaGrupo = new List<Grupo>();
+            _listaGrupos = new List<Grupo>();
         }
 
         public Grupo grupo
@@ -28,17 +28,20 @@ namespace articulomodelo.MVVM
             get => _grupo;
             set => SetProperty(ref _grupo, value);
         }
-        public List<Grupo> listaGrupo
+        public List<Grupo> listaGrupos
         {
-            get => _listaGrupo;
-            set => SetProperty(ref _listaGrupo, value);
+            get => _listaGrupos;
+            set => SetProperty(ref _listaGrupos, value);
         }
 
-        public async Task InicializarGrupos()
+
+        //Si en el examen hubiera q usar tree en el mismo de crear prob deberia separar metodos 
+        // para cargar los grupos con sus usuarios y salidas y otro para cargar solo los grupos sin relaciones
+        public async Task InicializarGrupos_Arbol()
         {
             try
             {
-                listaGrupo = await _grupoRepository.GetAllAsync();
+                listaGrupos = await _grupoRepository.GetAllConUsuariosySalidas();
             }
             catch (Exception e)
             {

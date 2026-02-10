@@ -38,7 +38,7 @@ namespace articulomodelo.MVVM
         public async Task InicializarDepartamentos()
         {
             try{
-                listaDepartamentos = await _departamentoRepository.GetAllConUsuariosAsync();
+                listaDepartamentos = await _departamentoRepository.GetAllConUsuariosySalidasAsync();
             } catch (Exception e)
             {
 

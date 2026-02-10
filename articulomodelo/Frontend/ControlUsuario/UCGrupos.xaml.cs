@@ -1,4 +1,5 @@
-﻿using System;
+﻿using articulomodelo.MVVM;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +20,19 @@ namespace articulomodelo.Frontend.ControlUsuario
     /// </summary>
     public partial class UCGrupos : UserControl
     {
-        public UCGrupos()
+
+        private VMGrupo _vmGrupo;
+
+        public UCGrupos(VMGrupo vmGrupo)
         {
             InitializeComponent();
+            _vmGrupo = vmGrupo;
+        }
+
+        private async void ucGrupo_Loaded(object sender, RoutedEventArgs e)
+        {
+            DataContext = _vmGrupo;
+            await _vmGrupo.InicializarGrupos_Arbol();
         }
     }
 }

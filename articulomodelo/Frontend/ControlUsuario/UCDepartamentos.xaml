@@ -29,11 +29,49 @@
                                               ItemsSource="{Binding Usuarios}">
                         <StackPanel Orientation="Horizontal">
                             <mat:PackIcon Kind="Domain" Width="16"/>
-                            <TextBlock Text="{Binding Nombre}" Margin="10,0,0,0"/>
+                            <TextBlock Margin="10,0,0,0">
+                                <!--Logo | Nombre Departamento | (Count Usuarios)-->
+                                <TextBlock.Text>
+                                    <MultiBinding StringFormat="{} {0} ({1})">
+                                        <Binding Path="Nombre"/>
+                                        <Binding Path="Usuarios.Count"/>
+                                    </MultiBinding>
+                                </TextBlock.Text>
+                            </TextBlock>
                         </StackPanel>
                     </HierarchicalDataTemplate>
                     <!--NIVEL 2: Poner datos del Usuario (nombre e apellidos)-->
-                    <!--NIVEL 3: Poner fecha salida / devolución -->
+                    <HierarchicalDataTemplate DataType="{x:Type entidades:Usuario}"
+                                              ItemsSource="{Binding Salida}">
+                        <StackPanel Orientation="Horizontal">
+                            <mat:PackIcon Kind="Account" Width="16"/>
+                            <TextBlock>
+                                <TextBlock.Text>
+                                    <!--Logo | Nombre | Apellido1 | Apellido2-->
+                                    <MultiBinding StringFormat="{}{0} {1} {2}">
+                                        <Binding Path="Nombre"/>
+                                        <Binding Path="Apellido1"/>
+                                        <Binding Path="Apellido2"/>
+                                    </MultiBinding>
+                                </TextBlock.Text>
+                            </TextBlock>
+                        </StackPanel>
+                    </HierarchicalDataTemplate>
+                    <!--NIVEL 3: Salida (fecha salida y devolución)-->
+                    <HierarchicalDataTemplate DataType="{x:Type entidades:Salida}">
+                        <StackPanel Orientation="Horizontal">
+                            <mat:PackIcon Kind="DateRange" Width="16"/>
+                            <TextBlock Margin="10,0,0,0">
+                                <!--Poner fecha salida y devolución con multibinding-->
+                                <TextBlock.Text>
+                                    <MultiBinding StringFormat="{}Salida: {0:dd/MM/yyyy} | Devolución: {1:dd/MM/yyyy}">
+                                        <Binding Path="Fechasalida"/>
+                                        <Binding Path="Fechadevolucion"/>
+                                    </MultiBinding>
+                                </TextBlock.Text>
+                            </TextBlock>
+                        </StackPanel>
+                    </HierarchicalDataTemplate>
                 </TreeView.Resources>
             </TreeView>
         </Grid>

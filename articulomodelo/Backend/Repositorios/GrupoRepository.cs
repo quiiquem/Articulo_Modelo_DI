@@ -14,5 +14,13 @@ namespace articulomodelo.Backend.Servicios
             : base(context, logger)
         {
         }
+
+        public async Task<List<Grupo>> GetAllConUsuariosySalidas()
+        {
+            return await _dbSet
+                .Include(d => d.Usuarios)
+                   .ThenInclude(u => u.Salida)
+                .ToListAsync();
+        }
     }
 }

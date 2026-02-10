@@ -233,6 +233,7 @@ namespace articulomodelo.MVVM
         {
             tipoNavigationSelecionado = null;
             listaModelo_CollectionView.Filter = null;
+            listaModelo_CollectionView.Refresh();
         }
 
         #endregion

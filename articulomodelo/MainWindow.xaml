@@ -51,10 +51,15 @@
             </Menu.Resources>
 
             <MenuItem Header="Insertar Objetos">
+                <MenuItem.Icon>
+                    <materialDesign:PackIcon Kind="Add"/>
+                </MenuItem.Icon>
+
                 <MenuItem Header="Añadir Modelo Articulo" Click="Crear_Click">
                     <MenuItem.Icon>
-                        <materialDesign:PackIcon Kind="Add"/>
-                    </MenuItem.Icon>
+      <materialDesign:PackIcon Kind="ViewList"/>
+  </MenuItem.Icon>
+
                 </MenuItem>
                 <MenuItem Header="Añadir Articulo" Click="Crear_Articulo">
                     <MenuItem.Icon>
@@ -99,68 +104,36 @@
                         <materialDesign:PackIcon Kind="PackageVariant"/>
                     </MenuItem.Icon>
                 </MenuItem>
+            </MenuItem>
+            <!--Lista de Departamentos-->
 
-                <!--Lista de Arbol admin-->
+
+                <!--Lista de Grupos-->
+
+
+                <!--TODO: Mover las ultimas 3 listas a Árboles-->
+            <MenuItem Header="Listas tipo árbol">
+                <MenuItem.Icon>
+                    <materialDesign:PackIcon Kind="Tree"/>
+                </MenuItem.Icon>
+                <!--Lista Arbol Admin-->
                 <MenuItem Header="Listado Administración" Click="UsuarioControl_Arbol">
                     <MenuItem.Icon>
                         <materialDesign:PackIcon Kind="Tree"/>
                     </MenuItem.Icon>
                 </MenuItem>
 
-                <!--Lista de Departamentos-->
+                <!--Lista Arbol Departamento-->
                 <MenuItem Header="Listado Departamentos" Click="UsuarioControl_Departamento">
                     <MenuItem.Icon>
                         <materialDesign:PackIcon Kind="Building"/>
                     </MenuItem.Icon>
                 </MenuItem>
 
-                <!--Lista de Grupos-->
+                <!--Lista Arbol Grupo-->
                 <MenuItem Header="Listado Grupos" Click="UsuarioControl_Grupos">
                     <MenuItem.Icon>
-                        <materialDesign:PackIcon Kind="Building"/>
-                    </MenuItem.Icon>
-                </MenuItem>
-            </MenuItem>
-
-            <!--TODO: Mover las ultimas 3 listas a Árboles-->
-            <MenuItem Header="Árboles">
-                <!--Soporte a Cliente-->
-                <MenuItem Header="Soporte al cliente">
-                    <MenuItem.Icon>
-                        <materialDesign:PackIcon Kind="Support"/>
-                    </MenuItem.Icon>
-                </MenuItem>
-            </MenuItem>
-
-            <!--Inventario-->
-            <MenuItem Header="4ta opcion que no hace nada">
-                <MenuItem Header="Listado de espacios">
-                    <MenuItem.Icon>
-                        <materialDesign:PackIcon Kind="Box"/>
-                    </MenuItem.Icon>
-                </MenuItem>
-                <MenuItem Header="Chequear Inventario">
-                    <MenuItem.Icon>
-                        <materialDesign:PackIcon Kind="Box"/>
-                    </MenuItem.Icon>
-                </MenuItem>
-                <MenuItem Header="Inventario Nuevo">
-                    <MenuItem.Icon>
-                        <materialDesign:PackIcon Kind="Box"/>
-                    </MenuItem.Icon>
-                </MenuItem>
-            </MenuItem>
-
-            <!--Información-->
-            <MenuItem Header="5ta opcion">
-                <MenuItem Header="Informes">
-                    <MenuItem.Icon>
-                        <materialDesign:PackIcon Kind="Box"/>
-                    </MenuItem.Icon>
-                </MenuItem>
-                <MenuItem Header="Gráficos">
-                    <MenuItem.Icon>
-                        <materialDesign:PackIcon Kind="Box"/>
+                        <materialDesign:PackIcon Kind="Group"/>
                     </MenuItem.Icon>
                 </MenuItem>
             </MenuItem>

@@ -16,5 +16,5 @@ C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\App.xaml
 233-236694951
 Frontend\ControlUsuario\UCAdministracionEspacios.xaml;Frontend\ControlUsuario\UCArticulos.xaml;Frontend\ControlUsuario\UCDepartamentos.xaml;Frontend\ControlUsuario\UCGrupos.xaml;Frontend\ControlUsuario\UCListadoModelo.xaml;Frontend\ControlUsuario\UCUsuarios.xaml;Frontend\Dialogos\DialogoArticulo.xaml;Frontend\Dialogos\DialogoModeloArticulo.xaml;Frontend\Dialogos\DialogoUsuarioNuevo.xaml;Frontend\Dialogos\Login.xaml;Frontend\Mensajes\MensajeDialogo.xaml;Frontend\Mensajes\VentanaMensaje.xaml;MainWindow.xaml;ResultWindow.xaml;
 
-False
+True
 

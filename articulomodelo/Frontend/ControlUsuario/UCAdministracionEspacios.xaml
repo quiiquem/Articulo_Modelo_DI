@@ -31,37 +31,28 @@
             <TreeView x:Name="treeEspacios" ItemsSource="{Binding listaEspacios}">
                 <TreeView.Resources> <!--Necesario, si no petara de forma horrible-->
                     <!--Llamar al modelo de espacio y mostrar articulos (en espacios)-->
-                    <HierarchicalDataTemplate DataType="{x:Type entidades:Espacio}"
-                                              ItemsSource="{Binding Articulos}"> 
+                    
+                    <!--NIVEL 1: ESPACIOS Y MOSTRAR ARTICULOS-->
+                    <HierarchicalDataTemplate DataType="{x:Type entidades:Espacio}" 
+                                              ItemsSource="{Binding Articulos}">
+                        <!--DataType para los que queremos mostrar ahora, itemssource para lo que queremos mostrar despues-->
                         <StackPanel Orientation="Horizontal">
                             <mat:PackIcon Kind="Room" Width="16"/>
                             <TextBlock Text="{Binding Nombre}" Margin="10,0,0,0"/>
-                            <!--Contar los articulos de cada espacio-->
-                            <TextBlock>
-                                <TextBlock.Text>
-                                    <MultiBinding StringFormat="({0})">
-                                        <Binding Path="Articulos.Count"/>
-                                    </MultiBinding>
-                                </TextBlock.Text>
-                            </TextBlock>
                         </StackPanel>
-                        <!--ARTICULO COUNT-->
                     </HierarchicalDataTemplate>
+                    <!--NIVEL 2: ARTICULO COUNT-->
                     <HierarchicalDataTemplate DataType="{x:Type entidades:Articulo}"
                                               ItemsSource="{Binding Salida}">
-                        <StackPanel Orientation="Horizontal">
-                            <mat:PackIcon Kind="PackageVariant"
-                                          Foreground="DarkViolet"
-                                          Width="16"/>
-                            <TextBlock Text="{Binding NumSerie}" Margin="10,0,0,0"/>
-                            <TextBlock FontWeight="Bold">
-                                <TextBlock.Text>
-                                    <MultiBinding StringFormat="({0})">
-                                        <Binding Path="Salida.Count"/> 
-                                    </MultiBinding>
-                                </TextBlock.Text>
-                            </TextBlock>
-                        </StackPanel>
+                        <TextBlock>
+                           <!--StringFormat = {Pasar todo a texto plano} | {Nombre} | ({Count Articulo})-->
+                            <TextBlock.Text>
+                                <MultiBinding StringFormat="{} {0} ({1})">
+                                    <Binding Path="Numserie"/>
+                                    <Binding Path="Salida.Count"/>
+                                </MultiBinding>
+                            </TextBlock.Text>
+                        </TextBlock>
                     </HierarchicalDataTemplate>
                     <!--SALIDA COUNT-->
                     <HierarchicalDataTemplate DataType="{x:Type entidades:Salida}">

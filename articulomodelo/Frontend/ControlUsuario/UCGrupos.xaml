@@ -4,8 +4,11 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:articulomodelo.Frontend.ControlUsuario"
+               xmlns:entidades="clr-namespace:articulomodelo.Backend.Modelo"
+                xmlns:mat="http://materialdesigninxaml.net/winfx/xaml/themes"
+               Loaded="ucGrupo_Loaded"
         mc:Ignorable="d"
-        Height="450" Width="800">
+        d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
         <DockPanel>
             <Grid DockPanel.Dock="Top">
@@ -20,9 +23,50 @@ Width="550" FontWeight="DemiBold" Foreground="White" Height="80"/>
             </Grid>
         </DockPanel>
         <Grid>
-            <!--NIVEL 1: Mostrar nombre de Grupos-->
-            <!--NIVEL 2: Mostar usuarios-->
+            <TreeView ItemsSource="{Binding listaGrupos}">
+                <TreeView.Resources>
+                    <!--NIVEL 1: Mostrar nombre de Grupos-->
+                    <HierarchicalDataTemplate DataType="{x:Type entidades:Grupo}"
+                                              ItemsSource="{Binding Usuarios}">
+                        <StackPanel Orientation="Horizontal">
+                            <mat:PackIcon Kind="Group" Width="16"/>
+                            <TextBlock Margin="10,0,0,0">
+                                <TextBlock.Text>
+                                    <MultiBinding StringFormat="{}{0} ({1})">
+                                        <Binding Path="Nombre"/>
+                                        <Binding Path="Usuarios.Count"/>
+                                    </MultiBinding>
+                                </TextBlock.Text>
+                            </TextBlock>
+                        </StackPanel>
+                    </HierarchicalDataTemplate>
+                    <!--NIVEL 2: Mostar usuarios-->
+                    <HierarchicalDataTemplate DataType="{x:Type entidades:Usuario}"
+                                              ItemsSource="{Binding Salida}">
+
+                        <StackPanel Orientation="Horizontal">
+                            <mat:PackIcon Kind="User" Width="16"/>
+                            <TextBlock>
+                                <TextBlock.Text>
+                                    <!--Pasar a Texto Plano | Username | Nombre | Apellido 1-->
+                                    <MultiBinding StringFormat="{} {0} {1} {2}">
+                                        <Binding Path="Username"/>
+                                        <Binding Path="Nombre"/>
+                                        <Binding Path="Apellido1"/>
+                                    </MultiBinding>
+                                </TextBlock.Text>
+                            </TextBlock>
+                        </StackPanel>
+                    </HierarchicalDataTemplate>
             <!--NIVEL 3: Mostar salidas-->
+                    <HierarchicalDataTemplate DataType="{x:Type entidades:Salida}">
+                        <StackPanel Orientation="Horizontal">
+                            <mat:PackIcon Kind="ExitRun" Width="16"/>
+                            <TextBlock Text="{Binding Fechasalida, StringFormat='dd/MM/yyyy'}"/>
+                        </StackPanel>
+                    </HierarchicalDataTemplate>
+                </TreeView.Resources>
+            </TreeView>
         </Grid>
     </Grid>
 </UserControl>

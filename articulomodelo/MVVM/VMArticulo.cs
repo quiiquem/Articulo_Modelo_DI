@@ -314,7 +314,6 @@ namespace articulomodelo.MVVM
             InicializaCriterios();
             AddCriterios();
             listaArticulos_CollectionView.Filter = _predicadoFiltros;
-            listaArticulos_CollectionView.Refresh();
         }
 
         public void LimpiarFiltros()
@@ -324,6 +323,7 @@ namespace articulomodelo.MVVM
             FechaAltaDesde = null;
             FechaAltaHasta = null;
             listaArticulos_CollectionView.Filter = null;
+            listaArticulos_CollectionView.Refresh();
         }
 
         #endregion

@@ -12,10 +12,11 @@ namespace articulomodelo.Backend.Servicios
         { 
         }
 
-        public async Task<List<Departamento>> GetAllConUsuariosAsync()
+        public async Task<List<Departamento>> GetAllConUsuariosySalidasAsync()
         {
             return await _dbSet
                 .Include(d => d.Usuarios)
+                   .ThenInclude(u => u.Salida)
                 .ToListAsync();
         }
     }
