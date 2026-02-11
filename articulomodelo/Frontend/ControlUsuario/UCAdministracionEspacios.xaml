@@ -10,7 +10,7 @@
                    xmlns:mat="http://materialdesigninxaml.net/winfx/xaml/themes"
              x:Name="arbolespacios"
              Loaded="ucArbolEspacio_Loaded"
-         d:DesignHeight="450" d:DesignWidth="800">
+         d:DesignHeight="950" d:DesignWidth="1000">
 
 
     <!--Las clases donde tengo modelos ESTAN ARRIBA EN XMLNS:ENTIDADES, LO NECESITAMOS PARA LUEGO EL TREEVIEW-->
@@ -27,11 +27,13 @@
         </Grid>
 
         <!--TREE VIEW-->
-        <Grid>
-            <TreeView x:Name="treeEspacios" ItemsSource="{Binding listaEspacios}">
-                <TreeView.Resources> <!--Necesario, si no petara de forma horrible-->
+        <Grid DockPanel.Dock="Left" Width="200">
+            <TreeView x:Name="treeEspacios" ItemsSource="{Binding listaEspacios}"
+                      SelectedItemChanged="treeEspacio_Cambio">
+                <TreeView.Resources>
+                    <!--Necesario, si no petara de forma horrible-->
                     <!--Llamar al modelo de espacio y mostrar articulos (en espacios)-->
-                    
+
                     <!--NIVEL 1: ESPACIOS Y MOSTRAR ARTICULOS-->
                     <HierarchicalDataTemplate DataType="{x:Type entidades:Espacio}" 
                                               ItemsSource="{Binding Articulos}">
@@ -66,5 +68,67 @@
                 </TreeView.Resources>
             </TreeView>
         </Grid>
+        <Grid DockPanel.Dock="Bottom">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2.5*"/>
+                <ColumnDefinition Width="2.5*"/>
+                <ColumnDefinition Width="2.5*"/>
+                <ColumnDefinition Width="2.5*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBox Grid.Column="0" Grid.Row="1" mat:HintAssist.Hint="Número de Serie" Margin="20,0,20,0"  Text="{Binding articuloSeleccionado.Numserie}"/>
+            
+            <ComboBox Grid.Column="0" Grid.Row="2" mat:HintAssist.Hint="Estado del Artículo" Margin="20" ItemsSource="{Binding listaEstados}" SelectedItem="{Binding articuloSeleccionado.Estado}"/>
+            
+            <DatePicker Grid.Column="1" Grid.Row="1" mat:HintAssist.Hint="Fecha de Alta" Margin="20,0,20,0" SelectedDate="{Binding articuloSeleccionado.Fechaalta}"/>
+            
+            <ComboBox Grid.Column="1" Grid.Row="2" mat:HintAssist.Hint="Usuario" Margin="20" ItemsSource="{Binding listaUsuarios}" 
+                      SelectedItem="{Binding articuloSeleccionado.UsuarioaltaNavigation}" DisplayMemberPath="Nombre"/>
+            
+            <ComboBox Grid.Column="2" Grid.Row="1" mat:HintAssist.Hint="Modelo del Artículo" Margin="20,0,20,0" 
+                      ItemsSource="{Binding listaModelosArticulos}" SelectedItem="{Binding articuloSeleccionado.ModeloNavigation}" DisplayMemberPath="Nombre"/>
+            
+            <ComboBox Grid.Column="2" Grid.Row="2" mat:HintAssist.Hint="Departamento" Margin="20" DisplayMemberPath="Nombre" 
+                      SelectedItem="{Binding articuloSeleccionado.DepartamentoNavigation}" ItemsSource="{Binding listaDepartamentos}"/>
+            
+            <ComboBox Grid.Column="3" Grid.Row="1" mat:HintAssist.Hint="Espacio" Margin="20,0,20,0" DisplayMemberPath="Nombre"
+                      SelectedItem="{Binding articuloSeleccionado.EspacioNavigation}" ItemsSource="{Binding listaEspacios}"/>
+            
+            <TextBox Grid.Column="3" Grid.Row="2" mat:HintAssist.Hint="Observaciones" Margin="20" Text="{Binding articuloSeleccionado.Observaciones}"/>
+
+            <Button Content="Modificar" Grid.Column="4" Grid.Row="2" Foreground="White" x:Name="btnModificarArticulo"/>
+
+        </Grid>
+        <Grid x:Name="listaobjetos">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="57*"/>
+                <RowDefinition Height="344*"/>
+            </Grid.RowDefinitions>
+            <DataGrid x:Name="dgArticuloPorEspacio" AutoGenerateColumns="False"
+                          IsReadOnly="True" ColumnWidth="*" CanUserAddRows="False" Grid.RowSpan="2">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="NumSerie"
+                                       Binding="{Binding articuloseleccionado.Numserie}"/>
+                    <DataGridTextColumn Header="Modelo Articulo"
+                                       Binding="{Binding ModeloNavigation.Nombre}"/>
+                    <DataGridTextColumn Header="Usuario"
+                                        Binding="{Binding UsuariobajaNavigation}"/>
+                    <DataGridTemplateColumn Header="Fecha de Alta">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <DatePicker SelectedDate="{Binding Fechaalta}"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
     </DockPanel>
-    </UserControl>
+</UserControl>

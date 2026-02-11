@@ -1,4 +1,5 @@
-﻿using articulomodelo.MVVM;
+﻿using articulomodelo.Backend.Modelo;
+using articulomodelo.MVVM;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,14 +35,12 @@ namespace articulomodelo.Frontend.ControlUsuario
          await _vmEspacio.InicializarEspacios();
         }
 
-        private void btnCrearEspacio_click(object sender, RoutedEventArgs e)
+        private void treeEspacio_Cambio(object sender, RoutedPropertyChangedEventArgs<object> e)
         {
-          
-        }
-
-        private void btnArbolEspacio_click(object sender, RoutedEventArgs e)
-        {
-
+            if(treeEspacios.SelectedItem is Espacio)
+            {
+                dgArticuloPorEspacio.ItemsSource = ((Espacio)treeEspacios.SelectedItem).Articulos;
+            }
         }
     }
 }
