@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\windows10\\Source\\Repos\\Articulo_Modelo_DI\\articulomodelo\\articulomodelo.csproj": {}
+    "C:\\Users\\windows10\\source\\repos\\Articulo_Modelo_DI\\articulomodelo\\articulomodelo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\windows10\\Source\\Repos\\Articulo_Modelo_DI\\articulomodelo\\articulomodelo.csproj": {
+    "C:\\Users\\windows10\\source\\repos\\Articulo_Modelo_DI\\articulomodelo\\articulomodelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\windows10\\Source\\Repos\\Articulo_Modelo_DI\\articulomodelo\\articulomodelo.csproj",
+        "projectUniqueName": "C:\\Users\\windows10\\source\\repos\\Articulo_Modelo_DI\\articulomodelo\\articulomodelo.csproj",
         "projectName": "articulomodelo",
-        "projectPath": "C:\\Users\\windows10\\Source\\Repos\\Articulo_Modelo_DI\\articulomodelo\\articulomodelo.csproj",
+        "projectPath": "C:\\Users\\windows10\\source\\repos\\Articulo_Modelo_DI\\articulomodelo\\articulomodelo.csproj",
         "packagesPath": "C:\\Users\\windows10\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\windows10\\Source\\Repos\\Articulo_Modelo_DI\\articulomodelo\\obj\\",
         "projectStyle": "PackageReference",

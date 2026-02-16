@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vkWYJTulEQg=",
+  "dgSpecHash": "vr9A/Ak/UeQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\windows10\\Source\\Repos\\Articulo_Modelo_DI\\articulomodelo\\articulomodelo.csproj",
+  "projectFilePath": "C:\\Users\\windows10\\source\\repos\\Articulo_Modelo_DI\\articulomodelo\\articulomodelo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\windows10\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\windows10\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
