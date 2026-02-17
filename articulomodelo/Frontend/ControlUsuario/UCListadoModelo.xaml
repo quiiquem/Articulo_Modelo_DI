@@ -31,6 +31,9 @@
                   Width="170" 
                   Margin="10,0,0,0"
                   mah:TextBoxHelper.Watermark="Selecciona un tipo"/>
+
+                    <TextBlock Text="FILTRAR POR NOMBRE:" FontWeight="Bold" Margin="30,0,0,0" VerticalAlignment="Center"/>
+                    <TextBox Text="{Binding NombreModeloFiltro}" Width="150" Margin="10,0,0,0" />
                     <!--BOTONES-->
                     <Button Background="BlueViolet" FontSize="15" Foreground="White" Width="100" Content="FILTRAR" FontWeight="Bold" Margin="30,0,0,0"
           Click="Filtrar_Click"/>

@@ -3,48 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\enriq\\Documents\\articulomodelo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\frontend\\dialogos\\dialogomodeloarticulo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\dialogos\\dialogomodeloarticulo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\backend\\modelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\backend\\modelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\backend\\modelo\\diinventarioexamencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\backend\\modelo\\diinventarioexamencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\frontend\\dialogos\\dialogousuarionuevo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\dialogos\\dialogousuarionuevo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\frontend\\dialogos\\dialogoespacio.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\dialogos\\dialogoespacio.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\frontend\\controlusuario\\uclistadomodelo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\controlusuario\\uclistadomodelo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\mvvm\\vmespacio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\mvvm\\vmespacio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\frontend\\dialogos\\dialogomodeloarticulo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\dialogos\\dialogomodeloarticulo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\frontend\\dialogos\\dialogoespacio.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\dialogos\\dialogoespacio.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\frontend\\controlusuario\\ucusuarios.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\controlusuario\\ucusuarios.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\frontend\\controlusuario\\uclistadomodelo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\controlusuario\\uclistadomodelo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\mvvm\\vmmodeloarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\mvvm\\vmmodeloarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\mvvm\\vmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\mvvm\\vmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\frontend\\controlusuario\\ucdepartamentos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\controlusuario\\ucdepartamentos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\mvvm\\vmarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\mvvm\\vmarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\frontend\\controlusuario\\ucarticulos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\controlusuario\\ucarticulos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\frontend\\dialogos\\dialogomodeloarticulo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\dialogos\\dialogomodeloarticulo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\mvvm\\vmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\mvvm\\vmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\frontend\\controlusuario\\ucarticulos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\controlusuario\\ucarticulos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\backend\\modelo\\diinventarioexamencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\backend\\modelo\\diinventarioexamencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\frontend\\dialogos\\dialogomodeloarticulo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\dialogos\\dialogomodeloarticulo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\frontend\\controlusuario\\uclistadomodelo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\controlusuario\\uclistadomodelo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\frontend\\controlusuario\\ucarticulos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\controlusuario\\ucarticulos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\backend\\modelo\\modeloarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,10 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\frontend\\dialogos\\dialogoarticulo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\dialogos\\dialogoarticulo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\enriq\\documents\\articulomodelo\\articulomodelo\\frontend\\controlusuario\\ucusuarios.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\controlusuario\\ucusuarios.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 54,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,7 +106,94 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VMEspacio.cs",
+              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMEspacio.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\MVVM\\VMEspacio.cs",
+              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMEspacio.cs",
+              "RelativeToolTip": "articulomodelo\\MVVM\\VMEspacio.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAUwHwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T18:01:00.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DialogoEspacio.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\Dialogos\\DialogoEspacio.xaml.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\Frontend\\Dialogos\\DialogoEspacio.xaml.cs",
+              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\Dialogos\\DialogoEspacio.xaml.cs",
+              "RelativeToolTip": "articulomodelo\\Frontend\\Dialogos\\DialogoEspacio.xaml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAwwDoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T18:57:36.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Backend\\Modelo\\Usuario.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\Backend\\Modelo\\Usuario.cs",
+              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Backend\\Modelo\\Usuario.cs",
+              "RelativeToolTip": "articulomodelo\\Backend\\Modelo\\Usuario.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAYwBYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T18:53:08.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UCDepartamentos.xaml",
+              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCDepartamentos.xaml",
+              "RelativeDocumentMoniker": "articulomodelo\\Frontend\\ControlUsuario\\UCDepartamentos.xaml",
+              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCDepartamentos.xaml",
+              "RelativeToolTip": "articulomodelo\\Frontend\\ControlUsuario\\UCDepartamentos.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-17T18:51:58.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "DialogoEspacio.xaml",
+              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\Dialogos\\DialogoEspacio.xaml",
+              "RelativeDocumentMoniker": "articulomodelo\\Frontend\\Dialogos\\DialogoEspacio.xaml",
+              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\Dialogos\\DialogoEspacio.xaml",
+              "RelativeToolTip": "articulomodelo\\Frontend\\Dialogos\\DialogoEspacio.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-17T17:58:27.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DialogoUsuarioNuevo.xaml",
+              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\Dialogos\\DialogoUsuarioNuevo.xaml",
+              "RelativeDocumentMoniker": "articulomodelo\\Frontend\\Dialogos\\DialogoUsuarioNuevo.xaml",
+              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\Dialogos\\DialogoUsuarioNuevo.xaml",
+              "RelativeToolTip": "articulomodelo\\Frontend\\Dialogos\\DialogoUsuarioNuevo.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-17T17:58:24.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UCListadoModelo.xaml",
+              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCListadoModelo.xaml",
+              "RelativeDocumentMoniker": "articulomodelo\\Frontend\\ControlUsuario\\UCListadoModelo.xaml",
+              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCListadoModelo.xaml",
+              "RelativeToolTip": "articulomodelo\\Frontend\\ControlUsuario\\UCListadoModelo.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-17T17:58:22.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "DialogoModeloArticulo.xaml",
               "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\Dialogos\\DialogoModeloArticulo.xaml",
               "RelativeDocumentMoniker": "articulomodelo\\Frontend\\Dialogos\\DialogoModeloArticulo.xaml",
@@ -90,46 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DialogoModeloArticulo.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\Dialogos\\DialogoModeloArticulo.xaml.cs",
-              "RelativeDocumentMoniker": "articulomodelo\\Frontend\\Dialogos\\DialogoModeloArticulo.xaml.cs",
-              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\Dialogos\\DialogoModeloArticulo.xaml.cs",
-              "RelativeToolTip": "articulomodelo\\Frontend\\Dialogos\\DialogoModeloArticulo.xaml.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBoAAABuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T10:45:35.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\App.xaml.cs",
-              "RelativeDocumentMoniker": "articulomodelo\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\App.xaml.cs",
-              "RelativeToolTip": "articulomodelo\\App.xaml.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAowG8AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T10:41:04.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "articulomodelo\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\MainWindow.xaml.cs",
-              "RelativeToolTip": "articulomodelo\\MainWindow.xaml.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAkwDwAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T10:38:11.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "DiinventarioexamenContext.cs",
               "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Backend\\Modelo\\DiinventarioexamenContext.cs",
               "RelativeDocumentMoniker": "articulomodelo\\Backend\\Modelo\\DiinventarioexamenContext.cs",
@@ -142,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "VMUsuario.cs",
               "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMUsuario.cs",
               "RelativeDocumentMoniker": "articulomodelo\\MVVM\\VMUsuario.cs",
@@ -155,7 +231,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
+              "Title": "VMModeloArticulo.cs",
+              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMModeloArticulo.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\MVVM\\VMModeloArticulo.cs",
+              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMModeloArticulo.cs",
+              "RelativeToolTip": "articulomodelo\\MVVM\\VMModeloArticulo.cs",
+              "ViewState": "AgIAANMAAAAAAAAAAAAgwAQBAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T17:54:58.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UCUsuarios.xaml",
+              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCUsuarios.xaml",
+              "RelativeDocumentMoniker": "articulomodelo\\Frontend\\ControlUsuario\\UCUsuarios.xaml",
+              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCUsuarios.xaml",
+              "RelativeToolTip": "articulomodelo\\Frontend\\ControlUsuario\\UCUsuarios.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-02T17:54:29.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DialogoModeloArticulo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\Dialogos\\DialogoModeloArticulo.xaml.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\Frontend\\Dialogos\\DialogoModeloArticulo.xaml.cs",
+              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\Dialogos\\DialogoModeloArticulo.xaml.cs",
+              "RelativeToolTip": "articulomodelo\\Frontend\\Dialogos\\DialogoModeloArticulo.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T10:45:35.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UCListadoModelo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCListadoModelo.xaml.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\Frontend\\ControlUsuario\\UCListadoModelo.xaml.cs",
+              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCListadoModelo.xaml.cs",
+              "RelativeToolTip": "articulomodelo\\Frontend\\ControlUsuario\\UCListadoModelo.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T18:15:45.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\MainWindow.xaml.cs",
+              "RelativeToolTip": "articulomodelo\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAkwDwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T10:38:11.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UCArticulos.xaml",
+              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml",
+              "RelativeDocumentMoniker": "articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml",
+              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml",
+              "RelativeToolTip": "articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-02T17:54:32.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Modeloarticulo.cs",
               "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Backend\\Modelo\\Modeloarticulo.cs",
               "RelativeDocumentMoniker": "articulomodelo\\Backend\\Modelo\\Modeloarticulo.cs",
@@ -167,20 +317,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UCListadoModelo.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCListadoModelo.xaml.cs",
-              "RelativeDocumentMoniker": "articulomodelo\\Frontend\\ControlUsuario\\UCListadoModelo.xaml.cs",
-              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCListadoModelo.xaml.cs",
-              "RelativeToolTip": "articulomodelo\\Frontend\\ControlUsuario\\UCListadoModelo.xaml.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAuwEIAAAABAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\App.xaml.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\App.xaml.cs",
+              "RelativeToolTip": "articulomodelo\\App.xaml.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAowG8AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T18:15:45.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-05T10:41:04.369Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "DialogoArticulo.xaml",
               "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\Dialogos\\DialogoArticulo.xaml",
               "RelativeDocumentMoniker": "articulomodelo\\Frontend\\Dialogos\\DialogoArticulo.xaml",
@@ -191,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "Articulo.cs",
               "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Backend\\Modelo\\Articulo.cs",
               "RelativeDocumentMoniker": "articulomodelo\\Backend\\Modelo\\Articulo.cs",
@@ -203,33 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "VMModeloArticulo.cs",
-              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMModeloArticulo.cs",
-              "RelativeDocumentMoniker": "articulomodelo\\MVVM\\VMModeloArticulo.cs",
-              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMModeloArticulo.cs",
-              "RelativeToolTip": "articulomodelo\\MVVM\\VMModeloArticulo.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAADcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T17:54:58.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "VMArticulo.cs",
-              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMArticulo.cs",
-              "RelativeDocumentMoniker": "articulomodelo\\MVVM\\VMArticulo.cs",
-              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMArticulo.cs",
-              "RelativeToolTip": "articulomodelo\\MVVM\\VMArticulo.cs",
-              "ViewState": "AgIAAKcAAAAAAAAAAAAowIIAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T17:54:59.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "UCArticulos.xaml.cs",
               "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml.cs",
               "RelativeDocumentMoniker": "articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml.cs",
@@ -238,28 +361,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-02T17:54:43.341Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UCArticulos.xaml",
-              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml",
-              "RelativeDocumentMoniker": "articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml",
-              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml",
-              "RelativeToolTip": "articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-02T17:54:32.07Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UCUsuarios.xaml",
-              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCUsuarios.xaml",
-              "RelativeDocumentMoniker": "articulomodelo\\Frontend\\ControlUsuario\\UCUsuarios.xaml",
-              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCUsuarios.xaml",
-              "RelativeToolTip": "articulomodelo\\Frontend\\ControlUsuario\\UCUsuarios.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-02T17:54:29.749Z"
             }
           ]
         },
@@ -300,6 +401,40 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "900b43b5-41f9-458f-9192-5e902c338ca4",
+        "Display": 1,
+        "X": -1174,
+        "Y": 401,
+        "Width": 2218,
+        "Height": 1365,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VMArticulo.cs",
+              "DocumentMoniker": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMArticulo.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\MVVM\\VMArticulo.cs",
+              "ToolTip": "C:\\Users\\enriq\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMArticulo.cs",
+              "RelativeToolTip": "articulomodelo\\MVVM\\VMArticulo.cs",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAowDcBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T17:54:59.387Z",
+              "EditorCaption": ""
             }
           ]
         }

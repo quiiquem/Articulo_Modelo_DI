@@ -51,7 +51,74 @@
                 <!--Poner RowDetails DEBAJO de los columns-->
                 <DataGrid.RowDetailsTemplate>
                     <DataTemplate>
-                        <TextBlock Text="test" Margin="10" FontStyle="Italic" Foreground="Gray"/>
+                        <Border Background="#F0F8FF" BorderBrush="CornflowerBlue" BorderThickness="1" 
+                Margin="5" Padding="15" CornerRadius="5">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <!-- Columna 1: Datos de contacto -->
+                                <StackPanel Grid.Column="0" Margin="0,0,10,0">
+                                    <TextBlock Text="📋 CONTACTO" FontWeight="Bold" Foreground="CornflowerBlue" 
+                               FontSize="12" Margin="0,0,0,5"/>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="Email: " FontWeight="Bold" FontSize="11"/>
+                                        <TextBlock Text="{Binding Email}" FontSize="11" Foreground="#333"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" Margin="0,3,0,0">
+                                        <TextBlock Text="Teléfono: " FontWeight="Bold" FontSize="11"/>
+                                        <TextBlock Text="{Binding Telefono}" FontSize="11" Foreground="#333"/>
+                                    </StackPanel>
+                                </StackPanel>
+
+                                <!-- Columna 2: Dirección -->
+                                <StackPanel Grid.Column="1" Margin="0,0,10,0">
+                                    <TextBlock Text="🏠 DIRECCIÓN" FontWeight="Bold" Foreground="CornflowerBlue" 
+                               FontSize="12" Margin="0,0,0,5"/>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="Domicilio: " FontWeight="Bold" FontSize="11"/>
+                                        <TextBlock Text="{Binding Domicilio}" FontSize="11" Foreground="#333"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" Margin="0,3,0,0">
+                                        <TextBlock Text="Población: " FontWeight="Bold" FontSize="11"/>
+                                        <TextBlock Text="{Binding Poblacion}" FontSize="11" Foreground="#333"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" Margin="0,3,0,0">
+                                        <TextBlock Text="C.P.: " FontWeight="Bold" FontSize="11"/>
+                                        <TextBlock Text="{Binding Codpostal}" FontSize="11" Foreground="#333"/>
+                                    </StackPanel>
+                                </StackPanel>
+
+                                <!-- Columna 3: Datos del sistema -->
+                                <StackPanel Grid.Column="2">
+                                    <TextBlock Text="⚙️ SISTEMA" FontWeight="Bold" Foreground="CornflowerBlue" 
+                               FontSize="12" Margin="0,0,0,5"/>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="ID: " FontWeight="Bold" FontSize="11"/>
+                                        <TextBlock Text="{Binding Idusuario}" FontSize="11" Foreground="#333"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" Margin="0,3,0,0">
+                                        <TextBlock Text="Tipo: " FontWeight="Bold" FontSize="11"/>
+                                        <TextBlock Text="{Binding TipoNavigation.Nombre}" FontSize="11" Foreground="#333"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" Margin="0,3,0,0">
+                                        <TextBlock Text="Rol: " FontWeight="Bold" FontSize="11"/>
+                                        <TextBlock Text="{Binding RolNavigation.Nombre}" FontSize="11" Foreground="#333"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" Margin="0,3,0,0">
+                                        <TextBlock Text="Grupo: " FontWeight="Bold" FontSize="11"/>
+                                        <TextBlock Text="{Binding GrupoNavigation.Nombre}" FontSize="11" Foreground="#333"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" Margin="0,3,0,0">
+                                        <TextBlock Text="Depto: " FontWeight="Bold" FontSize="11"/>
+                                        <TextBlock Text="{Binding DepartamentoNavigation.Nombre}" FontSize="11" Foreground="#333"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </Grid>
+                        </Border>
                     </DataTemplate>
                 </DataGrid.RowDetailsTemplate>
             </DataGrid>

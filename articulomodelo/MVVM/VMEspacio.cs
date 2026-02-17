@@ -100,5 +100,26 @@ namespace articulomodelo.MVVM
                     "Error al cargar los espacios\nNo puedo conectar con la base de datos", 0);
             }
         }
+
+        public async Task<bool> GuardarEspacioAsync()
+        {
+            try
+            {
+                if (Espacio.Idespacio == 0)
+                {
+                    await _espacioRepository.AddAsync(Espacio);
+                }
+                else
+                {
+                    await _espacioRepository.UpdateAsync(Espacio);
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"ERROR: {ex.Message}");
+                return false;
+            }
+        }
     }
 }

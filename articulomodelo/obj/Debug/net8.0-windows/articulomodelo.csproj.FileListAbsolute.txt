@@ -1099,3 +1099,11 @@ C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8
 C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8.0-windows\Frontend\ControlUsuario\UCGrupos.g.cs
 C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8.0-windows\Frontend\ControlUsuario\UCDepartamentos.baml
 C:\Users\windows10\Source\Repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8.0-windows\Frontend\ControlUsuario\UCGrupos.baml
+C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\ControlUsuario\UCAdministracionEspacios.g.cs
+C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\ControlUsuario\UCDepartamentos.g.cs
+C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\ControlUsuario\UCGrupos.g.cs
+C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\Dialogos\DialogoEspacio.g.cs
+C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\ControlUsuario\UCAdministracionEspacios.baml
+C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\ControlUsuario\UCDepartamentos.baml
+C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\ControlUsuario\UCGrupos.baml
+C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\Dialogos\DialogoEspacio.baml

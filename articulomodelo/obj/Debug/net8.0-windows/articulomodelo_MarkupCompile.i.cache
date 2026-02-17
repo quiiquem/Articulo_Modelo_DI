@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\windows10\source\repos\Articulo_Modelo_DI\articulomodelo\obj\Debug\net8.0-windows\
+C:\Users\enriq\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\
 articulomodelo
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\windows10\source\repos\Articulo_Modelo_DI\articulomodelo\App.xaml
-141014454837
+C:\Users\enriq\Documents\articulomodelo\articulomodelo\App.xaml
+1514898539
 
-62-1148099798
-233-236694951
-Frontend\ControlUsuario\UCAdministracionEspacios.xaml;Frontend\ControlUsuario\UCArticulos.xaml;Frontend\ControlUsuario\UCDepartamentos.xaml;Frontend\ControlUsuario\UCGrupos.xaml;Frontend\ControlUsuario\UCListadoModelo.xaml;Frontend\ControlUsuario\UCUsuarios.xaml;Frontend\Dialogos\DialogoArticulo.xaml;Frontend\Dialogos\DialogoModeloArticulo.xaml;Frontend\Dialogos\DialogoUsuarioNuevo.xaml;Frontend\Dialogos\Login.xaml;Frontend\Mensajes\MensajeDialogo.xaml;Frontend\Mensajes\VentanaMensaje.xaml;MainWindow.xaml;ResultWindow.xaml;
+63-1580313303
+2331689413966
+Frontend\ControlUsuario\UCAdministracionEspacios.xaml;Frontend\ControlUsuario\UCArticulos.xaml;Frontend\ControlUsuario\UCDepartamentos.xaml;Frontend\ControlUsuario\UCGrupos.xaml;Frontend\ControlUsuario\UCListadoModelo.xaml;Frontend\ControlUsuario\UCUsuarios.xaml;Frontend\Dialogos\DialogoArticulo.xaml;Frontend\Dialogos\DialogoEspacio.xaml;Frontend\Dialogos\DialogoModeloArticulo.xaml;Frontend\Dialogos\DialogoUsuarioNuevo.xaml;Frontend\Dialogos\Login.xaml;Frontend\Mensajes\MensajeDialogo.xaml;Frontend\Mensajes\VentanaMensaje.xaml;MainWindow.xaml;ResultWindow.xaml;
 
 True
 

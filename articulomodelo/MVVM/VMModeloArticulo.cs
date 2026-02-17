@@ -49,6 +49,7 @@ namespace articulomodelo.MVVM
         private List<Predicate<Modeloarticulo>> _criterios;
         private Predicate<Modeloarticulo> _criterioTipoNavigation;
         private Predicate<object> _predicadoFiltros;
+        private Predicate<Modeloarticulo> _criterioNombreModelo;
 
         #endregion
 
@@ -71,6 +72,8 @@ namespace articulomodelo.MVVM
                 get => _tipoNavigationSelecionado;
             set => SetProperty(ref _tipoNavigationSelecionado, value);
         }
+
+
 
 
         #endregion
@@ -201,6 +204,24 @@ namespace articulomodelo.MVVM
             _criterioTipoNavigation = new Predicate<Modeloarticulo>(
                 m => m.TipoNavigation != null && m.TipoNavigation.Equals(tipoNavigationSelecionado)
             );
+
+            _criterioNombreModelo = new Predicate<Modeloarticulo>(m =>
+                    (!string.IsNullOrEmpty(m.Nombre) && m.Nombre.ToLower().StartsWith(NombreModeloFiltro.ToLower())));
+                     
+        }
+
+
+        //Declarar Filtro nombre de modelo filtro
+        private string? _NombreModeloFiltro;
+
+        public string? NombreModeloFiltro
+        {
+            get => _NombreModeloFiltro;
+
+            set
+            {
+                SetProperty(ref _NombreModeloFiltro, value);
+            }
         }
 
         private void AddCriterios()
@@ -209,6 +230,11 @@ namespace articulomodelo.MVVM
             if (_criterioTipoNavigation != null)
             {
                 _criterios.Add(_criterioTipoNavigation);
+            }
+
+            if(_criterioNombreModelo != null)
+            {
+                _criterios.Add(_criterioNombreModelo);
             }
         }
 
@@ -225,6 +251,7 @@ namespace articulomodelo.MVVM
 
         public void Filtrar()
         {
+            InicializaCriterios();
             AddCriterios();
             listaModelo_CollectionView.Filter = _predicadoFiltros;
         }
